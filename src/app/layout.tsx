@@ -61,7 +61,7 @@ export const metadata: Metadata = {
       "Streaming MotoGP 2026 live HD, jadwal race lengkap, klasemen terbaru, dan berita pembalap setiap hari.",
     images: [
       {
-        url: "/og-image.jpg", // simpan di public/
+        url: "/og-image.png", // simpan di public/
         width: 1200,
         height: 630,
         alt: "Live Streaming MotoGP 2026",
