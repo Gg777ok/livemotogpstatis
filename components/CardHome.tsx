@@ -7,7 +7,7 @@ export default function CardHome() {
     <main className="container max-w-5xl mx-auto py-12 px-4">
       <h1 className="text-3xl font-bold mb-8">MotoGP 2026 News</h1>
 
-      <div className="grid gap-6 grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 grid-cols-1 lg:grid-cols-3">
         {articles.map((article) => (
           <Link
             key={article.id}
