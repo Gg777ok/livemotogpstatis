@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 
   description:
     "Nonton live streaming MotoGP 2026, jadwal race terbaru, klasemen pembalap, hasil balapan, dan berita MotoGP update setiap hari.",
-
+  
   keywords: [
     "Live MotoGP",
     "Streaming MotoGP 2026",
@@ -74,12 +74,12 @@ export const metadata: Metadata = {
     title: "LIVEMotoGP - Live Streaming MotoGP 2026",
     description:
       "Nonton live MotoGP 2026, cek jadwal race, klasemen, dan hasil balapan terbaru.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.png"],
   },
 
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: "/og-image.png",
+    apple: "/og-image.png",
   },
 
   viewport: {
