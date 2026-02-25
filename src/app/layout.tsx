@@ -4,6 +4,7 @@ import "./globals.css";
 import { Navbar } from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Script from "next/script";
+import "plyr/dist/plyr.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,13 +20,12 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://livemotogp.com"),
 
   title: {
-    default: "LIVEMotoGP - Live Streaming & Berita MotoGP 2026",
+    default: "LIVEMotoGP/LIVEMotoGP.NET  - Live Streaming & Berita MotoGP 2026",
     template: "%s | LIVEMotoGP",
   },
 
   description:
-    "Nonton live streaming MotoGP 2026, jadwal race terbaru, klasemen pembalap, hasil balapan, dan berita MotoGP update setiap hari.",
-  
+    "Nonton live streaming MotoGP 2026, jadwal race terbaru, klasemen pembalap, hasil balapan, dan berita MotoGP update setiap hari. Kunjungi juga LIVEMotoGP.NET untuk pengalaman streaming tanpa gangguan.",
   keywords: [
     "Live MotoGP",
     "Streaming MotoGP 2026",
@@ -56,9 +56,9 @@ export const metadata: Metadata = {
     locale: "id_ID",
     url: "https://livemotogp.com",
     siteName: "LIVEMotoGP",
-    title: "LIVEMotoGP - Live Streaming & Berita MotoGP 2026",
+    title: "LIVEMotoGP/LIVEMotoGP.NET  - Live Streaming & Berita MotoGP 2026",
     description:
-      "Streaming MotoGP 2026 live HD, jadwal race lengkap, klasemen terbaru, dan berita pembalap setiap hari.",
+      "Nonton live streaming MotoGP 2026, jadwal race terbaru, klasemen pembalap, hasil balapan, dan berita MotoGP update setiap hari. Kunjungi juga LIVEMotoGP.NET untuk pengalaman streaming tanpa gangguan.",
     images: [
       {
         url: "/og-image.png", // simpan di public/
@@ -71,9 +71,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "LIVEMotoGP - Live Streaming MotoGP 2026",
+    title: "LIVEMotoGP/LIVEMotoGP.NET - Live Streaming MotoGP 2026",
     description:
-      "Nonton live MotoGP 2026, cek jadwal race, klasemen, dan hasil balapan terbaru.",
+      "Nonton live streaming MotoGP 2026, jadwal race terbaru, klasemen pembalap, hasil balapan, dan berita MotoGP update setiap hari. Kunjungi juga LIVEMotoGP.NET untuk pengalaman streaming tanpa gangguan.",
     images: ["/og-image.png"],
   },
 
@@ -98,11 +98,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* Google AdSense Script */}
+        {/* <script src="https://welcomingexpulsion.com/01/40/c7/0140c7f2b4b2a1bb3e8b3837c856198a.js"></script> */}
         <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5121660910861187"
-          crossOrigin="anonymous"
+          src="https://welcomingexpulsion.com/01/40/c7/0140c7f2b4b2a1bb3e8b3837c856198a.js"
           strategy="afterInteractive"
         />
 
@@ -111,6 +109,10 @@ export default function RootLayout({
         {children}
 
         <Footer />
+        <Script
+          src="https://welcomingexpulsion.com/8e/9d/37/8e9d37d13bce33fd36e49421cfd5bc7b.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

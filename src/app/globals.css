@@ -2,6 +2,7 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
+
 @custom-variant dark (&:is(.dark *));
 .nav-link {
   @apply text-sm font-medium transition-colors hover:text-primary;
