@@ -11,108 +11,100 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="mt-0 ">
-      <div className="max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
+    <footer className="border-t border-gray-200 dark:border-white/10 bg-white dark:bg-black text-gray-700 dark:text-gray-400 transition-colors duration-300">
+      
+      <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+
         <div>
-          <div className="font-bold mb-2">LIVEMotoGPCOM</div>
-          <p className="">
-            LIVE MotoGP NET/Live MotoGP Com Adalah Situs Untuk Nonton Live
-            Streaming MotoGP/WSBK Gratis Full Session. Live MotoGP Com <br />
+          <div className="text-lg md:text-xl font-semibold mb-3 text-gray-900 dark:text-white">
+            LIVEMotoGP.NET
+          </div>
+          <p className="text-sm md:text-base leading-relaxed">
+            LIVE MotoGP NET/Live MotoGP Com adalah situs untuk nonton live
+            streaming MotoGP/WSBK gratis full session. <br />
             Live MotoGP Net is a site for watching MotoGP/WSBK live streaming
-            for free, full session. Live MotoGP Com
+            for free, full session.
           </p>
         </div>
 
-        <div className="flex flex-col gap-2">
-          <Link
-            href="https://t.me/+wz0g7OSf3ic3ODQ1"
-            target="_blank"
-            className="flex items-center gap-1"
-          >
-            <BsTelegram />
-            Telegram
-          </Link>
-          <Link
-            href={"https://x.com/nontonmotogp"}
-            target="_blank"
-            className="flex items-center gap-1"
-          >
+   
+        <div className="flex flex-col gap-3 text-sm font-medium">
+          <FooterLink href="https://t.me/+wz0g7OSf3ic3ODQ1">
+            <BsTelegram /> Telegram
+          </FooterLink>
+
+          <FooterLink href="https://x.com/nontonmotogp">
             <BsTwitterX /> Twitter (X)
-          </Link>
-          <Link
-            href={"https://www.facebook.com/livemotogpnet/"}
-            target="_blank"
-            className="flex items-center gap-1"
-          >
+          </FooterLink>
+
+          <FooterLink href="https://www.facebook.com/livemotogpnet/">
             <BsFacebook /> Facebook
-          </Link>
-          <Link
-            href={"https://tiktok.com/@livemotogp.net"}
-            target="_blank"
-            className="flex items-center gap-1"
-          >
-            <BsTiktok /> Tiktok
-          </Link>
-          <Link
-            href="https://www.zvstreams.com/search/label/Live%20MotoGP"
-            className="flex items-center gap-1"
-          >
+          </FooterLink>
+
+          <FooterLink href="https://tiktok.com/@livemotogp.net">
+            <BsTiktok /> TikTok
+          </FooterLink>
+
+          <FooterLink href="https://www.zvstreams.com/search/label/Live%20MotoGP">
             <BsChat /> Kontak
-          </Link>
-          <Link
-            href="https://www.zvstreams.com/search/label/Live%20MotoGP"
-            className="flex items-center gap-1"
-          >
+          </FooterLink>
+
+          <FooterLink href="https://www.zvstreams.com/search/label/Live%20MotoGP">
             <BsLink /> Live Streaming
-          </Link>
+          </FooterLink>
         </div>
 
-        <div className="flex flex-col gap-2">
-          <Link
-            href="https://t.me/+wz0g7OSf3ic3ODQ1"
-            target="_blank"
-            className="flex items-center gap-1"
-          >
-            <BsTelegram />
-            Telegram
-          </Link>
-          <Link
-            href={"https://x.com/nontonmotogp"}
-            target="_blank"
-            className="flex items-center gap-1"
-          >
+ 
+        <div className="flex flex-col gap-3 text-sm font-medium">
+          <FooterLink href="https://t.me/+wz0g7OSf3ic3ODQ1">
+            <BsTelegram /> Telegram
+          </FooterLink>
+
+          <FooterLink href="https://x.com/nontonmotogp">
             <BsTwitterX /> Twitter (X)
-          </Link>
-          <Link
-            href={"https://www.facebook.com/livemotogpnet/"}
-            target="_blank"
-            className="flex items-center gap-1"
-          >
+          </FooterLink>
+
+          <FooterLink href="https://www.facebook.com/livemotogpnet/">
             <BsFacebook /> Facebook
-          </Link>
-          <Link
-            href={"https://tiktok.com/@livemotogp.net"}
-            target="_blank"
-            className="flex items-center gap-1"
-          >
-            <BsTiktok /> Tiktok
-          </Link>
-          <Link
-            href="https://www.zvstreams.com/search/label/Live%20MotoGP"
-            className="flex items-center gap-1"
-          >
+          </FooterLink>
+
+          <FooterLink href="https://tiktok.com/@livemotogp.net">
+            <BsTiktok /> TikTok
+          </FooterLink>
+
+          <FooterLink href="https://www.zvstreams.com/search/label/Live%20MotoGP">
             <BsChat /> Kontak
-          </Link>
-          <Link
-            href="https://www.zvstreams.com/search/label/Live%20MotoGP"
-            className="flex items-center gap-1"
-          >
+          </FooterLink>
+
+          <FooterLink href="https://www.zvstreams.com/search/label/Live%20MotoGP">
             <BsLink /> Live Streaming
-          </Link>
+          </FooterLink>
         </div>
+      </div>
+
+      {/* Bottom */}
+      <div className="border-t border-gray-200 dark:border-white/10 text-center text-xs text-gray-500 dark:text-gray-500 py-4">
+        © {new Date().getFullYear()} LIVEMotoGP. All rights reserved.
       </div>
     </footer>
   );
 };
+
+const FooterLink = ({
+  href,
+  children,
+}: {
+  href: string;
+  children: React.ReactNode;
+}) => (
+  <Link
+    href={href}
+    target="_blank"
+    className="flex items-center gap-2 hover:text-black dark:hover:text-white transition-colors duration-200"
+  >
+    {children}
+  </Link>
+);
 
 export default Footer;

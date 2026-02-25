@@ -110,7 +110,7 @@ export const DataStreams: Streams[] = [
     id: 6,
     title: "Live Streaming WSBK",
     slug: "live-streaming-wsbk",
-    type: "dash",
+    type: "hls",
     links: {
       id: "",
       key: "",
