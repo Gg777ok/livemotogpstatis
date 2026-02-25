@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import PlyrHlsPlayer from "../../../../components/HlsPlayer";
 import ClapprPlayer from "../../../../components/ClapprPlayer";
+import { BsFacebook, BsTelegram, BsTiktok, BsTwitterX } from "react-icons/bs";
 
 interface Props {
   params: { slug: string };
@@ -26,7 +27,6 @@ export default async function MotoGP({ params }: Props) {
   const { slug } = await params;
   const data = DataStreams.find((e) => e.slug === slug);
   if (!data) return notFound();
-
 
   return (
     <main className="container max-w-3xl mx-auto py-12 mb-20 px-10">
@@ -56,8 +56,15 @@ export default async function MotoGP({ params }: Props) {
         <p className="text-sm text-muted-foreground line-clamp-3">
           {data.excerpt}
         </p>
-        <div className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-bold">
-          Tonton Tanpa Iklan di LIVEMotoGP.NET
+        <div className="bg-red-600 hover:bg-red-700 text-white px-4 py-3 rounded-lg font-bold text-center space-y-1">
+          <div>
+            Situs <span className="underline">LIVEMotoGP.COM</span> menggunakan
+            iklan popup.
+          </div>
+          <div>
+            Ingin tanpa iklan? Tonton di
+            <span className="underline ml-1">LIVEMotoGP.NET</span>
+          </div>
         </div>
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           {data.type === "dash" ? (
@@ -75,10 +82,129 @@ export default async function MotoGP({ params }: Props) {
             </>
           )}
         </div>
-        <div className="py-2">
-          <Link href={"/"}>
-            <Button variant={"default"}>Kembali</Button>
-          </Link>
+
+        <div className="py-3">
+          <div className="grid grid-cols-2 lg:flex lg:flex-wrap gap-2">
+            <Link
+              href="https://welcomingexpulsion.com/pc91vdji?key=26074ca280654af24ec3252d5bef89eb"
+              target="_blank"
+              className="w-full lg:w-auto"
+            >
+              <Button className="w-full" variant="destructive">
+                SERVER 1
+              </Button>
+            </Link>
+
+            <Link
+              href="https://welcomingexpulsion.com/pc91vdji?key=26074ca280654af24ec3252d5bef89eb"
+              target="_blank"
+              className="w-full lg:w-auto"
+            >
+              <Button className="w-full" variant="destructive">
+                SERVER 2
+              </Button>
+            </Link>
+
+            <Link
+              href="https://welcomingexpulsion.com/pc91vdji?key=26074ca280654af24ec3252d5bef89eb"
+              target="_blank"
+              className="w-full lg:w-auto"
+            >
+              <Button className="w-full" variant="destructive">
+                SERVER 3
+              </Button>
+            </Link>
+
+            <Link
+              href="https://welcomingexpulsion.com/pc91vdji?key=26074ca280654af24ec3252d5bef89eb"
+              target="_blank"
+              className="w-full lg:w-auto"
+            >
+              <Button className="w-full" variant="destructive">
+                SERVER 4
+              </Button>
+            </Link>
+            <Link
+              href="https://welcomingexpulsion.com/pc91vdji?key=26074ca280654af24ec3252d5bef89eb"
+              target="_blank"
+              className="w-full lg:w-auto"
+            >
+              <Button className="w-full" variant="destructive">
+                SERVER 5
+              </Button>
+            </Link>
+            <Link
+              href="https://welcomingexpulsion.com/pc91vdji?key=26074ca280654af24ec3252d5bef89eb"
+              target="_blank"
+              className="w-full lg:w-auto"
+            >
+              <Button className="w-full" variant="destructive">
+                SERVER 6
+              </Button>
+            </Link>
+          </div>
+          <div className="py-3">
+            <div className="grid grid-cols-2 lg:flex lg:flex-wrap gap-2">
+              <Link
+                href="https://x.com/nontonmotogp"
+                target="_blank"
+                className="w-full lg:w-auto"
+              >
+                <Button
+                  className="w-full flex items-center justify-center gap-2"
+                  variant="default"
+                >
+                  <BsTwitterX />
+                  Twitter (X)
+                </Button>
+              </Link>
+
+              <Link
+                href="https://t.me/+wz0g7OSf3ic3ODQ1"
+                target="_blank"
+                className="w-full lg:w-auto"
+              >
+                <Button
+                  className="w-full flex items-center justify-center gap-2"
+                  variant="default"
+                >
+                  <BsTelegram />
+                  Telegram
+                </Button>
+              </Link>
+              <Link
+                href="https://www.facebook.com/livemotogpnet/"
+                target="_blank"
+                className="w-full lg:w-auto"
+              >
+                <Button
+                  className="w-full flex items-center justify-center gap-2"
+                  variant="default"
+                >
+                  <BsFacebook />
+                  Facebook
+                </Button>
+              </Link>
+              <Link
+                href="https://tiktok.com/@livemotogp.net"
+                target="_blank"
+                className="w-full lg:w-auto"
+              >
+                <Button
+                  className="w-full flex items-center justify-center gap-2"
+                  variant="default"
+                >
+                  <BsTiktok />
+                  Tiktok
+                </Button>
+              </Link>
+            </div>
+          </div>
+          <div className="py-3">
+            <Link href="/">
+              <Button variant="default">Kembali</Button>
+            </Link>
+          </div>
         </div>
       </div>
     </main>

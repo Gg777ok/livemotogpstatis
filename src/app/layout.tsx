@@ -99,20 +99,28 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* <script src="https://welcomingexpulsion.com/01/40/c7/0140c7f2b4b2a1bb3e8b3837c856198a.js"></script> */}
-        <Script
-          src="https://welcomingexpulsion.com/01/40/c7/0140c7f2b4b2a1bb3e8b3837c856198a.js"
-          strategy="afterInteractive"
-        />
+        {process.env.VERCEL_ENV  === "production" && (
+          <>
+            <Script
+              src="https://welcomingexpulsion.com/01/40/c7/0140c7f2b4b2a1bb3e8b3837c856198a.js"
+              strategy="afterInteractive"
+            />
+          </>
+        )}
 
         <Navbar />
 
         {children}
 
         <Footer />
-        <Script
-          src="https://welcomingexpulsion.com/8e/9d/37/8e9d37d13bce33fd36e49421cfd5bc7b.js"
-          strategy="afterInteractive"
-        />
+        {process.env.VERCEL_ENV  === "production" && (
+          <>
+            <Script
+              src="https://welcomingexpulsion.com/8e/9d/37/8e9d37d13bce33fd36e49421cfd5bc7b.js"
+              strategy="afterInteractive"
+            />
+          </>
+        )}
       </body>
     </html>
   );
