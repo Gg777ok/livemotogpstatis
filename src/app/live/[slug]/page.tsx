@@ -26,8 +26,7 @@ export default async function MotoGP({ params }: Props) {
   const { slug } = await params;
   const data = DataStreams.find((e) => e.slug === slug);
   if (!data) return notFound();
-  console.log({title: data.title});
-console.log({link: data.links.url});
+
 
   return (
     <main className="container max-w-3xl mx-auto py-12 mb-20 px-10">

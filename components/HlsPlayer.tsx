@@ -21,20 +21,58 @@ export default function PlyrHlsPlayer({ url, autoPlay = true }: Props) {
       const Plyr = (await import("plyr")).default;
 
       if (!videoRef.current) return;
+      const video = videoRef.current;
+
+      const defaultOptions: any = {
+        controls: [
+          "play",
+          "progress",
+          "current-time",
+          "mute",
+          "volume",
+          "settings",
+          "fullscreen",
+        ],
+        settings: ["quality", "speed"],
+        quality: {
+          default: 0,
+          options: [],
+          forced: true,
+          onChange: (quality: number) => {},
+        },
+      };
 
       if (Hls.isSupported()) {
         hls = new Hls();
         hls.loadSource(url);
-        hls.attachMedia(videoRef.current);
+        hls.attachMedia(video);
 
         hls.on(Hls.Events.MANIFEST_PARSED, () => {
-          plyr = new Plyr(videoRef.current!, {});
+          const qualities = hls!.levels.map((level) => level.height);
+
+          defaultOptions.quality = {
+            default: qualities[qualities.length - 1], // kualitas tertinggi default
+            options: qualities,
+            forced: true,
+            onChange: (quality: number) => {
+              hls!.levels.forEach((level, index) => {
+                if (level.height === quality) {
+                  hls!.currentLevel = index;
+                }
+              });
+            },
+          };
+
+          plyr = new Plyr(video, defaultOptions);
+
+          if (autoPlay) {
+            video.play().catch(() => {});
+          }
         });
-      } else if (
-        videoRef.current.canPlayType("application/vnd.apple.mpegurl")
-      ) {
-        videoRef.current.src = url;
-        plyr = new Plyr(videoRef.current, {});
+      } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+        // Safari native HLS
+        video.src = url;
+        plyr = new Plyr(video, defaultOptions);
       }
     };
 
@@ -44,15 +82,14 @@ export default function PlyrHlsPlayer({ url, autoPlay = true }: Props) {
       if (hls) hls.destroy();
       if (plyr) plyr.destroy();
     };
-  }, [url]);
+  }, [url, autoPlay]);
 
   return (
     <video
       ref={videoRef}
-      controls
-      autoPlay={autoPlay}
       playsInline
-      className="w-full aspect-video rounded-2xl"
+      autoPlay
+      className="w-full aspect-video  rounded-2xl overflow-hidden"
     />
   );
 }
