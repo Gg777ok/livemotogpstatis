@@ -12,10 +12,7 @@ import {
 const Footer = () => {
   return (
     <footer className="border-t border-gray-200 dark:border-white/10 bg-white dark:bg-black text-gray-700 dark:text-gray-400 transition-colors duration-300">
-      
       <div className="container mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
-        
-
         <div>
           <div className="text-lg md:text-xl font-semibold mb-3 text-gray-900 dark:text-white">
             LIVEMotoGP.NET
@@ -28,7 +25,6 @@ const Footer = () => {
           </p>
         </div>
 
-   
         <div className="flex flex-col gap-3 text-sm font-medium">
           <FooterLink href="https://t.me/+wz0g7OSf3ic3ODQ1">
             <BsTelegram /> Telegram
@@ -55,7 +51,6 @@ const Footer = () => {
           </FooterLink>
         </div>
 
- 
         <div className="flex flex-col gap-3 text-sm font-medium">
           <FooterLink href="https://t.me/+wz0g7OSf3ic3ODQ1">
             <BsTelegram /> Telegram
@@ -84,7 +79,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom */}
-      <div className="border-t border-gray-200 dark:border-white/10 text-center text-xs text-gray-500 dark:text-gray-500 py-4">
+      <div className="border-t border-gray-200 dark:border-white/10 text-center text-sm text-gray-500 dark:text-gray-500 py-4">
         © {new Date().getFullYear()} LIVEMotoGP. All rights reserved.
       </div>
     </footer>
