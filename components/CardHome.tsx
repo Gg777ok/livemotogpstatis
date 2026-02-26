@@ -7,8 +7,8 @@ import { PlaySquareIcon } from "lucide-react";
 export default function CardHome() {
   return (
     <main className="container max-w-5xl mx-auto py-12 px-2">
-      <h1 className="text-xl sm:text-2xl font-bold mb-5 md:mb-6 leading-tight flex gap-0.5 sm:gap-1">
-        <PlaySquareIcon/> MotoGP Live Streaming
+      <h1 className="text-xl sm:text-2xl font-bold mb-5 md:mb-6 leading-tight flex gap-0.5 sm:gap-1 items-center">
+        <PlaySquareIcon /> MotoGP Live Streaming
       </h1>
       <div className="grid gap-2 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3">
         {DataStreams.map((article) => (
