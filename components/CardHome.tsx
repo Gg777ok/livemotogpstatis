@@ -30,7 +30,7 @@ export default function CardHome() {
             animate={{ opacity: 1, y: 0 }}
             transition={{
               duration: 0.4,
-              delay: index * 0.08,
+              delay: index * 0.3,
               ease: "easeOut",
             }}
             className="group bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border"
