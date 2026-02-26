@@ -1,14 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
-import { articles } from "../lib/artikel";
+// import { articles } from "../lib/artikel";
 import { DataStreams } from "../lib/streams";
+import { PlaySquareIcon } from "lucide-react";
 
 export default function CardHome() {
   return (
-    <main className="container max-w-5xl mx-auto py-12 px-4">
-      <h1 className="text-3xl font-bold mb-8">MotoGP Live Streaming</h1>
-
-      <div className="grid gap-6 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3">
+    <main className="container max-w-5xl mx-auto py-12 px-2">
+      <h1 className="text-xl sm:text-2xl font-bold mb-5 md:mb-6 leading-tight flex gap-0.5 sm:gap-1">
+        <PlaySquareIcon/> MotoGP Live Streaming
+      </h1>
+      <div className="grid gap-2 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3">
         {DataStreams.map((article) => (
           <Link
             key={article.id}

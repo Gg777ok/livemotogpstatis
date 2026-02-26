@@ -11,7 +11,7 @@ const Hero = () => {
         </p>
 
         <div className="flex gap-3">
-          <button className="bg-gray-400 text-white px-4 py-2 rounded text-sm">
+          <button className="bg-gray-400 text-white px-0 py-2 rounded text-sm">
             Tonton sekarang
           </button>
           <button className="bg-gray-300 px-4 py-2 rounded text-sm">

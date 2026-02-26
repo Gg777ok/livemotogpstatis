@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button";
 import PlyrHlsPlayer from "../../../../components/HlsPlayer";
 import ClapprPlayer from "../../../../components/ClapprPlayer";
 import { BsFacebook, BsTelegram, BsTiktok, BsTwitterX } from "react-icons/bs";
+import AlertInfo from "../../../../components/AlertInfo";
+import AlertWarning from "../../../../components/AlertWarning";
 
 interface Props {
   params: { slug: string };
@@ -21,6 +23,29 @@ export async function generateMetadata({ params }: Props) {
   return {
     title: data.title,
     description: data.excerpt,
+
+    openGraph: {
+      type: "article",
+      locale: "id_ID",
+      url: `https://livemotogp.com/live/${data.slug}`,
+      siteName: "LIVEMotoGP",
+      title: data.title,
+      description: data.excerpt,
+      images: [
+        {
+          url: data.image || "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: data.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: data.title,
+      description: data.excerpt,
+      images: [data.image || "/og-image.png"],
+    },
   };
 }
 export default async function MotoGP({ params }: Props) {
@@ -29,7 +54,7 @@ export default async function MotoGP({ params }: Props) {
   if (!data) return notFound();
 
   return (
-    <main className="container max-w-3xl mx-auto py-12 mb-20 px-10">
+    <main className="container max-w-3xl mx-auto py-1 mb-20 px-4">
       <div className=" space-y-3">
         <div className="relative aspect-video rounded-2xl overflow-hidden">
           <Image
@@ -45,7 +70,9 @@ export default async function MotoGP({ params }: Props) {
             {data.category}
           </span>
 
-          <h1 className="text-4xl font-bold leading-tight">{data.title}</h1>
+          <h1 className="text-xl sm:text-2xl font-bold mb-5 md:mb-6 leading-tight">
+            {data.title}
+          </h1>
 
           <div className="text-sm text-muted-foreground space-x-3">
             <span>{data.author}</span>
@@ -53,19 +80,23 @@ export default async function MotoGP({ params }: Props) {
             <span>{new Date(data.date).toLocaleDateString()}</span>
           </div>
         </header>
-        <p className="text-sm text-muted-foreground line-clamp-3">
-          {data.excerpt}
-        </p>
-        <div className="bg-red-600 hover:bg-red-700 text-white px-4 py-3 rounded-lg font-bold text-center space-y-1">
-          <div>
-            Situs <span className="underline">LIVEMotoGP.COM</span> menggunakan
-            iklan popup.
-          </div>
-          <div>
-            Ingin tanpa iklan? Tonton di
-            <span className="underline ml-1">LIVEMotoGP.NET</span>
-          </div>
-        </div>
+        <AlertInfo message={data.excerpt} title={"PERHATIAN"} />
+        <AlertWarning
+          message={
+            <>
+              <div>
+                Situs <span className="underline">LIVEMotoGP.COM</span>{" "}
+                menggunakan iklan popup.
+              </div>
+              <div>
+                Ingin tanpa iklan? Tonton di
+                <span className="underline ml-1">LIVEMotoGP.NET</span>
+              </div>
+            </>
+          }
+          title={"PERHATIAN"}
+        />
+
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           {data.type === "dash" ? (
             <>

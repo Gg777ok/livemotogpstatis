@@ -61,7 +61,7 @@ export const metadata: Metadata = {
       "Nonton live streaming MotoGP 2026, jadwal race terbaru, klasemen pembalap, hasil balapan, dan berita MotoGP update setiap hari. Kunjungi juga LIVEMotoGP.NET untuk pengalaman streaming tanpa gangguan.",
     images: [
       {
-        url: "/og-image.png", // simpan di public/
+        url: "/og-image.png", 
         width: 1200,
         height: 630,
         alt: "Live Streaming MotoGP 2026",
