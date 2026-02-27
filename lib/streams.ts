@@ -29,7 +29,7 @@ export const DataStreams: Streams[] = [
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image:
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-Wxt4j0IlzL-_YIBqVNf8LohB_yY0JxN6xLYFyoWxZhRUpn6N21SImbwZHvrVBZPtWq_eMzMrTSKqh3z2z1xtqrg1Xf8ysQiW2RMda_XF5BH5pYdCdN7iBzCOnVgoK8mi9btUn3cMmiyZlK9yFzl7Xnu5R0015L3PzrQsad0kFDf4cxQhran-aEVaUE3g/s1280/photo_2025-10-23_22-46-09%20%282%29.jpg",
+      "/images/image.jpg",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
@@ -47,7 +47,7 @@ export const DataStreams: Streams[] = [
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image:
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-Wxt4j0IlzL-_YIBqVNf8LohB_yY0JxN6xLYFyoWxZhRUpn6N21SImbwZHvrVBZPtWq_eMzMrTSKqh3z2z1xtqrg1Xf8ysQiW2RMda_XF5BH5pYdCdN7iBzCOnVgoK8mi9btUn3cMmiyZlK9yFzl7Xnu5R0015L3PzrQsad0kFDf4cxQhran-aEVaUE3g/s1280/photo_2025-10-23_22-46-09%20%282%29.jpg",
+      "/images/image.jpg",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
@@ -65,7 +65,7 @@ export const DataStreams: Streams[] = [
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image:
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-Wxt4j0IlzL-_YIBqVNf8LohB_yY0JxN6xLYFyoWxZhRUpn6N21SImbwZHvrVBZPtWq_eMzMrTSKqh3z2z1xtqrg1Xf8ysQiW2RMda_XF5BH5pYdCdN7iBzCOnVgoK8mi9btUn3cMmiyZlK9yFzl7Xnu5R0015L3PzrQsad0kFDf4cxQhran-aEVaUE3g/s1280/photo_2025-10-23_22-46-09%20%282%29.jpg",
+      "/images/image.jpg",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
@@ -83,7 +83,7 @@ export const DataStreams: Streams[] = [
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image:
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-Wxt4j0IlzL-_YIBqVNf8LohB_yY0JxN6xLYFyoWxZhRUpn6N21SImbwZHvrVBZPtWq_eMzMrTSKqh3z2z1xtqrg1Xf8ysQiW2RMda_XF5BH5pYdCdN7iBzCOnVgoK8mi9btUn3cMmiyZlK9yFzl7Xnu5R0015L3PzrQsad0kFDf4cxQhran-aEVaUE3g/s1280/photo_2025-10-23_22-46-09%20%282%29.jpg",
+      "/images/image.jpg",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
@@ -101,7 +101,7 @@ export const DataStreams: Streams[] = [
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image:
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-Wxt4j0IlzL-_YIBqVNf8LohB_yY0JxN6xLYFyoWxZhRUpn6N21SImbwZHvrVBZPtWq_eMzMrTSKqh3z2z1xtqrg1Xf8ysQiW2RMda_XF5BH5pYdCdN7iBzCOnVgoK8mi9btUn3cMmiyZlK9yFzl7Xnu5R0015L3PzrQsad0kFDf4cxQhran-aEVaUE3g/s1280/photo_2025-10-23_22-46-09%20%282%29.jpg",
+      "/images/image.jpg",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
@@ -119,7 +119,7 @@ export const DataStreams: Streams[] = [
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image:
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-Wxt4j0IlzL-_YIBqVNf8LohB_yY0JxN6xLYFyoWxZhRUpn6N21SImbwZHvrVBZPtWq_eMzMrTSKqh3z2z1xtqrg1Xf8ysQiW2RMda_XF5BH5pYdCdN7iBzCOnVgoK8mi9btUn3cMmiyZlK9yFzl7Xnu5R0015L3PzrQsad0kFDf4cxQhran-aEVaUE3g/s1280/photo_2025-10-23_22-46-09%20%282%29.jpg",
+      "/images/image.jpg",
     date: "2026-01-13",
     author: "X",
     category: "Live WSBK",
