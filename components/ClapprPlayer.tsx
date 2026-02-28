@@ -18,7 +18,6 @@ export default function DashPlayer({ url, drmId, drmKey, poster }: Props) {
 
     const loadScriptOnce = (src: string) =>
       new Promise<void>((resolve) => {
-
         if (document.querySelector(`script[src="${src}"]`)) {
           resolve();
           return;
@@ -32,27 +31,24 @@ export default function DashPlayer({ url, drmId, drmKey, poster }: Props) {
       });
 
     const init = async () => {
-
       if (instanceRef.current) {
         instanceRef.current.stop?.();
         instanceRef.current.destroy();
         instanceRef.current = null;
       }
 
-
       playerRef.current!.innerHTML = "";
 
-  
       await loadScriptOnce(
-        "https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"
+        "https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js",
       );
 
       await loadScriptOnce(
-        "https://cdn.jsdelivr.net/npm/dash-shaka-playback@latest/dist/dash-shaka-playback.js"
+        "https://cdn.jsdelivr.net/npm/dash-shaka-playback@latest/dist/dash-shaka-playback.js",
       );
 
       await loadScriptOnce(
-        "https://cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"
+        "https://cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js",
       );
 
       const Clappr = (window as any).Clappr;
@@ -68,7 +64,9 @@ export default function DashPlayer({ url, drmId, drmKey, poster }: Props) {
         height: "100%",
         autoPlay: true,
         mute: false,
-        poster,
+        // poster,
+        watermark: poster,
+        position: "top-right",
         plugins: [DashShakaPlayback, LevelSelector],
         levelSelectorConfig: {
           title: "Quality",
