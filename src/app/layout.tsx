@@ -115,7 +115,7 @@ export default function RootLayout({
         )}
 
         <Navbar />
-        <AdsHeader />
+        {/* <AdsHeader /> */}
         {children}
 
         <Footer />
