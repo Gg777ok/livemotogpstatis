@@ -6,6 +6,7 @@ import Footer from "../../components/Footer";
 import Script from "next/script";
 import "plyr/dist/plyr.css";
 import { Analytics } from "@vercel/analytics/next";
+import AdsHeader from "../../components/AdsHeader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -114,25 +115,23 @@ export default function RootLayout({
         )}
 
         <Navbar />
-
+        <AdsHeader />
         {children}
 
         <Footer />
         {process.env.VERCEL_ENV === "production" && (
           <>
             <Analytics />
-            <div data-type="_mgwidget" data-widget-id="1967118"></div>
+
+            <div data-type="_mgwidget" data-widget-id="1967939"></div>
             <Script
               src="https://welcomingexpulsion.com/8e/9d/37/8e9d37d13bce33fd36e49421cfd5bc7b.js"
               strategy="afterInteractive"
             />
             <Script id="mg-script" strategy="afterInteractive">
               {`
-            (function(w,q){
-              w[q]=w[q]||[];
-              w[q].push(["_mgc.load"])
-            })(window,"_mgq");
-          `}
+                (function(w,q){w[q]=w[q]||[];w[q].push(["_mgc.load"])})(window,"_mgq");
+              `}
             </Script>
           </>
         )}
