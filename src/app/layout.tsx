@@ -115,7 +115,7 @@ export default function RootLayout({
         )}
         {process.env.VERCEL_ENV === "production" && <Navbar />}
 
-        {/* <AdsHeader /> */}
+        <AdsHeader />
         {children}
 
         <Footer />

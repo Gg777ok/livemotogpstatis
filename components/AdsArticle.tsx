@@ -1,19 +1,19 @@
 "use client";
 
-import Script from "next/script";
+import { useEffect } from "react";
 
 const AdsArticle = () => {
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      (window as any)._mgq = (window as any)._mgq || [];
+      (window as any)._mgq.push(["_mgc.load"]);
+    }
+  }, []);
+
+  if (process.env.NODE_ENV !== "production") return null;
+
   return (
-    <>
-      {process.env.VERCEL_ENV === "production" && (
-        <>
-          <div data-type="_mgwidget" data-widget-id="1967940"></div>
-          <Script id="mgid-script" strategy="afterInteractive">
-            {`(function(w,q){w[q]=w[q]||[];w[q].push(["_mgc.load"]);})(window,"_mgq");`}
-          </Script>
-        </>
-      )}
-    </>
+    <div data-type="_mgwidget" data-widget-id="1967940"></div>
   );
 };
 
