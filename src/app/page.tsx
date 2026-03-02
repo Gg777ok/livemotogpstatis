@@ -1,7 +1,9 @@
 import CardHome from "../../components/CardHome";
 import { CarouselSize } from "../../components/Carousel";
 
+
 export default function Home() {
+  
   const images = [
     {
       img: "/images/1.jpg",

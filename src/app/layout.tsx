@@ -5,6 +5,7 @@ import { Navbar } from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Script from "next/script";
 import "plyr/dist/plyr.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -61,7 +62,7 @@ export const metadata: Metadata = {
       "Nonton live streaming MotoGP 2026, jadwal race terbaru, klasemen pembalap, hasil balapan, dan berita MotoGP update setiap hari. Kunjungi juga LIVEMotoGP.NET untuk pengalaman streaming tanpa gangguan.",
     images: [
       {
-        url: "/og-image.png", 
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Live Streaming MotoGP 2026",
@@ -99,10 +100,14 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* <script src="https://welcomingexpulsion.com/01/40/c7/0140c7f2b4b2a1bb3e8b3837c856198a.js"></script> */}
-        {process.env.VERCEL_ENV  === "production" && (
+        {process.env.VERCEL_ENV === "production" && (
           <>
             <Script
               src="https://welcomingexpulsion.com/01/40/c7/0140c7f2b4b2a1bb3e8b3837c856198a.js"
+              strategy="afterInteractive"
+            />
+            <Script
+              src="https://jsc.mgid.com/site/986312.js"
               strategy="afterInteractive"
             />
           </>
@@ -113,12 +118,22 @@ export default function RootLayout({
         {children}
 
         <Footer />
-        {process.env.VERCEL_ENV  === "production" && (
+        {process.env.VERCEL_ENV === "production" && (
           <>
+            <Analytics />
+            <div data-type="_mgwidget" data-widget-id="1967118"></div>
             <Script
               src="https://welcomingexpulsion.com/8e/9d/37/8e9d37d13bce33fd36e49421cfd5bc7b.js"
               strategy="afterInteractive"
             />
+            <Script id="mg-script" strategy="afterInteractive">
+              {`
+            (function(w,q){
+              w[q]=w[q]||[];
+              w[q].push(["_mgc.load"])
+            })(window,"_mgq");
+          `}
+            </Script>
           </>
         )}
       </body>

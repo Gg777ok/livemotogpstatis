@@ -6,10 +6,28 @@ import Link from "next/link";
 import { DataStreams } from "../lib/streams";
 import { PlaySquareIcon } from "lucide-react";
 import { motion } from "framer-motion";
+import { useState } from "react";
+import PaginationHome from "./PaginationHome";
 
 const MotionLink = motion(Link);
+const ITEMS_PER_PAGE = 6;
 
 export default function CardHome() {
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const totalPages = Math.ceil(DataStreams.length / ITEMS_PER_PAGE);
+
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const currentData = DataStreams.slice(
+    startIndex,
+    startIndex + ITEMS_PER_PAGE
+  );
+
+  const handlePageChange = (page: number) => {
+    if (page < 1 || page > totalPages) return;
+    setCurrentPage(page);
+  };
+
   return (
     <main className="container max-w-5xl mx-auto py-12 px-2">
       <motion.h1
@@ -22,7 +40,7 @@ export default function CardHome() {
       </motion.h1>
 
       <div className="grid gap-2 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3">
-        {DataStreams.map((article, index) => (
+        {currentData.map((article, index) => (
           <MotionLink
             key={article.id}
             href={`/live/${article.slug}`}
@@ -68,6 +86,9 @@ export default function CardHome() {
             </div>
           </MotionLink>
         ))}
+      </div>
+      <div className="mt-10">
+        <PaginationHome currentPage={currentPage} totalPages={totalPages} handlePageChange={handlePageChange}/>
       </div>
     </main>
   );

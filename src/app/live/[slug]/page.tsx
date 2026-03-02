@@ -96,20 +96,30 @@ export default async function MotoGP({ params }: Props) {
           }
           title={"PERHATIAN"}
         />
-
+        <AlertWarning
+          message={
+            <>
+              <div>
+                ▶️ Silakan tekan tombol Play di layar untuk mulai
+                menonton.
+              </div>
+            </>
+          }
+          title={"PERHATIAN"}
+        />
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           {data.type === "dash" ? (
             <>
               <ClapprPlayer
-                drmId={data.links.id}
-                drmKey={data.links.key}
-                url={data.links.url}
+                drmId={data.links[0].id}
+                drmKey={data.links[0].key}
+                url={data.links[0].url}
                 poster={data.image}
               />
             </>
           ) : (
             <>
-              <PlyrHlsPlayer url={data.links.url} autoPlay={true} />
+              <PlyrHlsPlayer url={data.links[0].url} autoPlay={true} />
             </>
           )}
         </div>
