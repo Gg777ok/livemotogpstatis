@@ -8,6 +8,7 @@ import ClapprPlayer from "../../../../components/ClapprPlayer";
 import { BsFacebook, BsTelegram, BsTiktok, BsTwitterX } from "react-icons/bs";
 import AlertInfo from "../../../../components/AlertInfo";
 import AlertWarning from "../../../../components/AlertWarning";
+import AdsArticle from "../../../../components/AdsArticle";
 
 interface Props {
   params: { slug: string };
@@ -100,13 +101,13 @@ export default async function MotoGP({ params }: Props) {
           message={
             <>
               <div>
-                ▶️ Silakan tekan tombol Play di layar untuk mulai
-                menonton.
+                ▶️ Silakan tekan tombol Play di layar untuk mulai menonton.
               </div>
             </>
           }
           title={"PERHATIAN"}
         />
+        <AdsArticle />
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           {data.type === "dash" ? (
             <>

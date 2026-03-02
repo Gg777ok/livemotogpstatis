@@ -5,9 +5,7 @@ import Script from "next/script";
 const AdsHeader = () => {
   return (
     <>
-      {process.env.VERCEL_ENV === "production" && (
-        <>
-          <style jsx>{`
+       <style jsx>{`
             div[data-widget-id="1967942"] {
               min-height: 300px;
             }
@@ -22,8 +20,6 @@ const AdsHeader = () => {
           })(window,"_mgq");
         `}
           </Script>
-        </>
-      )}
     </>
   );
 };
