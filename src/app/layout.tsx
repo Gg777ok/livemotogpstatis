@@ -6,6 +6,7 @@ import Footer from "../../components/Footer";
 import Script from "next/script";
 import "plyr/dist/plyr.css";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import AdsHeader from "../../components/AdsHeader";
 import AdsFloating from "../../components/AdsFloating";
 
@@ -122,6 +123,7 @@ export default function RootLayout({
         {process.env.VERCEL_ENV === "production" && (
           <>
             <Analytics />
+            <SpeedInsights />
             <div data-type="_mgwidget" data-widget-id="1967939"></div>
             <div data-type="_mgwidget" data-widget-id="1978333"></div>
             <Script

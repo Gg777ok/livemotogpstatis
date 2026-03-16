@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.6.1",
+    "@vercel/speed-insights": "^2.0.0",
     "clappr": "^0.3.13",
     "clappr-level-selector-plugin": "^0.2.1",
     "class-variance-authority": "^0.7.1",
