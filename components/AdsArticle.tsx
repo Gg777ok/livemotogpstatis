@@ -10,7 +10,7 @@ const AdsArticle = () => {
     }
   }, []);
 
-  if (process.env.VERCEL_ENV !== "production") return null;
+ if (process.env.NODE_ENV !== "production") return null;
 
   return (
     <div data-type="_mgwidget" data-widget-id="1967940"></div>
