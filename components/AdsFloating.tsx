@@ -23,7 +23,7 @@ export default function AdsFloating() {
     }
   }, []);
 
-  if (process.env.NODE_ENV !== "production") return null;
+  if (process.env.VERCEL_ENV === "production") return null;
   if (!isOpen) return null;
 
   return (
