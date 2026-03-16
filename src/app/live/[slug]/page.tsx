@@ -97,6 +97,7 @@ export default async function MotoGP({ params }: Props) {
           }
           title={"PERHATIAN"}
         />
+        <AdsArticle />
         <AlertWarning
           message={
             <>
@@ -107,7 +108,6 @@ export default async function MotoGP({ params }: Props) {
           }
           title={"PERHATIAN"}
         />
-        <AdsArticle />
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           {data.type === "dash" ? (
             <>

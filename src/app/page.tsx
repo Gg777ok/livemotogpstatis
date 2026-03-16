@@ -1,9 +1,8 @@
+import AdsArticle from "../../components/AdsArticle";
 import CardHome from "../../components/CardHome";
 import { CarouselSize } from "../../components/Carousel";
 
-
 export default function Home() {
-  
   const images = [
     {
       img: "/images/1.jpg",
@@ -40,7 +39,11 @@ export default function Home() {
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-neutral-950">
       <main className="flex min-h-screen  w-full max-w-4xl flex-col items-center justify-between py-1 px-1 bg-white dark:bg-neutral-950 sm:items-start">
         <CarouselSize images={images} />
+        {process.env.VERCEL_ENV === "production" && <AdsArticle />}
         <CardHome />
+        <div className="mt-1">
+          {process.env.VERCEL_ENV === "production" && <AdsArticle />}
+        </div>
       </main>
     </div>
   );
