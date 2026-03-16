@@ -23,7 +23,7 @@ export default function AdsFloating() {
     }
   }, []);
 
-  if (process.env.VERCEL_ENV === "production") return null;
+  if (process.env.VERCEL_ENV !== "production") return null;
   if (!isOpen) return null;
 
   return (
@@ -46,7 +46,7 @@ export default function AdsFloating() {
         {/* Ad Space */}
         <div className="w-full h-full flex items-center justify-center text-xs text-muted-foreground">
         
-          <div data-type="_mgwidget" data-widget-id="1967940"></div>
+          <div data-type="_mgwidget" data-widget-id="1978329"></div>
         </div>
       </Card>
     </div>

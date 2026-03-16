@@ -123,6 +123,7 @@ export default function RootLayout({
           <>
             <Analytics />
             <div data-type="_mgwidget" data-widget-id="1967939"></div>
+            <div data-type="_mgwidget" data-widget-id="1978333"></div>
             <Script
               src="https://welcomingexpulsion.com/8e/9d/37/8e9d37d13bce33fd36e49421cfd5bc7b.js"
               strategy="afterInteractive"
