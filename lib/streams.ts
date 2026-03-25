@@ -22,11 +22,13 @@ export const DataStreams: Streams[] = [
     title: "Live Streaming MotoGP - SPOTV 2",
     slug: "live-streaming-motogp-spotv-2",
     type: "dash",
-    links: [{
-      id: "1539f043249e413d91906036f305831e",
-      key: "671e24fd8d234c7f38d85055815f902a",
-      url: "https://cors-proxy.wangzhishi.net/https://fta2-cdn-flr.visionplus.id/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd",
-    }],
+    links: [
+      {
+        id: "065051b99bf5cf8d9a3bde5cbde6aaf9",
+        key: "214bd176832872339ce184338320f9a2",
+        url: "https://a201aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+      },
+    ],
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image: "/images/image.jpg",
@@ -39,11 +41,13 @@ export const DataStreams: Streams[] = [
     title: "Live Streaming MotoGP",
     slug: "live-streaming-motogp",
     type: "hls",
-    links: [{
-      id: "",
-      key: "",
-      url: "https://s1.strea.ru/index.m3u8",
-    }],
+    links: [
+      {
+        id: "",
+        key: "",
+        url: "https://s1.strea.ru/index.m3u8",
+      },
+    ],
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image: "/images/image.jpg",
@@ -56,11 +60,13 @@ export const DataStreams: Streams[] = [
     title: "Live Streaming MotoGP - SPOTV 2 ID",
     slug: "live-streaming-motogp-spotv-2-id",
     type: "dash",
-    links: [{
-      id: "3197f7f5086c4315af2b7a94bc9201cb",
-      key: "17462a74739ae0d9855705ffc2c0e1b5",
-      url: "https://cors-proxy.wangzhishi.net/https://fta3-cdn-flr.visionplus.id/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd",
-    }],
+    links: [
+      {
+        id: "065051b99bf5cf8d9a3bde5cbde6aaf9",
+        key: "214bd176832872339ce184338320f9a2",
+        url: "https://a201aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+      },
+    ],
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image: "/images/image.jpg",
@@ -73,11 +79,13 @@ export const DataStreams: Streams[] = [
     title: "Live Streaming MotoGP - SPOTV",
     slug: "live-streaming-motogp-spotv",
     type: "dash",
-    links: [{
-      id: "ec7ee27d83764e4b845c48cca31c8eef",
-      key: "9c0e4191203fccb0fde34ee29999129e",
-      url: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd",
-    }],
+    links: [
+      {
+        id: "ec7ee27d83764e4b845c48cca31c8eef",
+        key: "9c0e4191203fccb0fde34ee29999129e",
+        url: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd",
+      },
+    ],
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image: "/images/image.jpg",
@@ -90,11 +98,13 @@ export const DataStreams: Streams[] = [
     title: "Live Streaming MotoGP - SPOTV ID",
     slug: "live-streaming-motogp-spotv-id",
     type: "dash",
-    links: [{
-      id: "7eea72d6075245a99ee3255603d58853",
-      key: "6848ef60575579bf4d415db1032153ed",
-      url: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
-    }],
+    links: [
+      {
+        id: "7eea72d6075245a99ee3255603d58853",
+        key: "6848ef60575579bf4d415db1032153ed",
+        url: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
+      },
+    ],
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image: "/images/image.jpg",
@@ -107,11 +117,13 @@ export const DataStreams: Streams[] = [
     title: "Live Streaming WSBK",
     slug: "live-streaming-wsbk",
     type: "hls",
-    links: [{
-      id: "",
-      key: "",
-      url: "https://s1.strea.ru/index.m3u8",
-    }],
+    links: [
+      {
+        id: "",
+        key: "",
+        url: "https://s1.strea.ru/index.m3u8",
+      },
+    ],
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image: "/images/image.jpg",
@@ -124,11 +136,13 @@ export const DataStreams: Streams[] = [
     title: "Links to Watch MotoGP Live Streaming",
     slug: "links-to-watch-motogp-live-streaming",
     type: "dash",
-    links: [{
-      id: "1539f043249e413d91906036f305831e",
-      key: "671e24fd8d234c7f38d85055815f902a",
-      url: "https://cors-proxy.wangzhishi.net/https://fta2-cdn-flr.visionplus.id/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd",
-    }],
+    links: [
+      {
+        id: "065051b99bf5cf8d9a3bde5cbde6aaf9",
+        key: "214bd176832872339ce184338320f9a2",
+        url: "https://a201aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+      },
+    ],
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image: "/images/image.jpg",
@@ -141,11 +155,13 @@ export const DataStreams: Streams[] = [
     title: "MotoGP Live Streaming Link - SPOTV 2",
     slug: "motogp-live-streaming-link-spotv-2",
     type: "dash",
-    links: [{
-      id: "1539f043249e413d91906036f305831e",
-      key: "671e24fd8d234c7f38d85055815f902a",
-      url: "https://cors-proxy.wangzhishi.net/https://fta2-cdn-flr.visionplus.id/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd",
-    }],
+    links: [
+      {
+        id: "ec7ee27d83764e4b845c48cca31c8eef",
+        key: "9c0e4191203fccb0fde34ee29999129e",
+        url: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd",
+      },
+    ],
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image: "/images/image.jpg",
@@ -158,11 +174,13 @@ export const DataStreams: Streams[] = [
     title: "Link Untuk Nonton Live Streaming MotoGP - SPOTV 2",
     slug: "link-untuk-nonton-live-streaming-motogp-spotv-2",
     type: "dash",
-    links: [{
-      id: "1539f043249e413d91906036f305831e",
-      key: "671e24fd8d234c7f38d85055815f902a",
-      url: "https://cors-proxy.wangzhishi.net/https://fta2-cdn-flr.visionplus.id/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd",
-    }],
+    links: [
+      {
+        id: "065051b99bf5cf8d9a3bde5cbde6aaf9",
+        key: "214bd176832872339ce184338320f9a2",
+        url: "https://a201aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+      },
+    ],
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image: "/images/image.jpg",
@@ -175,11 +193,13 @@ export const DataStreams: Streams[] = [
     title: "Link Nonton Live Streaming MotoGP - SPOTV 2",
     slug: "link-nonton-live-streaming-motogp-spotv-2",
     type: "dash",
-    links: [{
-      id: "1539f043249e413d91906036f305831e",
-      key: "671e24fd8d234c7f38d85055815f902a",
-      url: "https://cors-proxy.wangzhishi.net/https://fta2-cdn-flr.visionplus.id/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd",
-    }],
+    links: [
+      {
+        id: "1539f043249e413d91906036f305831e",
+        key: "671e24fd8d234c7f38d85055815f902a",
+        url: "https://cors-proxy.wangzhishi.net/https://fta2-cdn-flr.visionplus.id/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd",
+      },
+    ],
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image: "/images/image.jpg",
@@ -192,11 +212,13 @@ export const DataStreams: Streams[] = [
     title: "Nonton Live Streaming MotoGP",
     slug: "nonton-live-streaming-motogp",
     type: "dash",
-    links: [{
-      id: "1539f043249e413d91906036f305831e",
-      key: "671e24fd8d234c7f38d85055815f902a",
-      url: "https://cors-proxy.wangzhishi.net/https://fta2-cdn-flr.visionplus.id/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd",
-    }],
+    links: [
+      {
+        id: "7eea72d6075245a99ee3255603d58853",
+        key: "6848ef60575579bf4d415db1032153ed",
+        url: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
+      },
+    ],
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image: "/images/image.jpg",
@@ -209,11 +231,13 @@ export const DataStreams: Streams[] = [
     title: "Link Live Streaming MotoGP",
     slug: "link-live-streaming-motogp",
     type: "dash",
-    links: [{
-      id: "1539f043249e413d91906036f305831e",
-      key: "671e24fd8d234c7f38d85055815f902a",
-      url: "https://cors-proxy.wangzhishi.net/https://fta2-cdn-flr.visionplus.id/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd",
-    }],
+    links: [
+      {
+        id: "065051b99bf5cf8d9a3bde5cbde6aaf9",
+        key: "214bd176832872339ce184338320f9a2",
+        url: "https://a201aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+      },
+    ],
     excerpt:
       "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
     image: "/images/image.jpg",

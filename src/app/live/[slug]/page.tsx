@@ -98,14 +98,9 @@ export default async function MotoGP({ params }: Props) {
           title={"PERHATIAN"}
         />
         <AdsArticle />
-        <AlertWarning
-          message={
-            <>
-              <div>
-                ▶️ Silakan tekan tombol Play di layar untuk mulai menonton.
-              </div>
-            </>
-          }
+        
+        <AlertInfo
+          message="▶️ Silakan tekan tombol Play di layar untuk mulai menonton. Player akan membutuhkan waktu sekitar 10–20 detik untuk memuat, jadi mohon tunggu sebentar hingga video berjalan dengan lancar."
           title={"PERHATIAN"}
         />
         <div className="prose prose-neutral dark:prose-invert max-w-none">
