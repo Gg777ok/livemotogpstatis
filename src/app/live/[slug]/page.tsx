@@ -9,6 +9,7 @@ import { BsFacebook, BsTelegram, BsTiktok, BsTwitterX } from "react-icons/bs";
 import AlertInfo from "../../../../components/AlertInfo";
 import AlertWarning from "../../../../components/AlertWarning";
 import AdsArticle from "../../../../components/AdsArticle";
+import { BannerLiveMotoGP } from "../../../../components/BannerLivemotogp";
 
 interface Props {
   params: { slug: string };
@@ -98,7 +99,7 @@ export default async function MotoGP({ params }: Props) {
           title={"PERHATIAN"}
         />
         <AdsArticle />
-        
+        <BannerLiveMotoGP />
         <AlertInfo
           message="▶️ Silakan tekan tombol Play di layar untuk mulai menonton. Player akan membutuhkan waktu sekitar 10–20 detik untuk memuat, jadi mohon tunggu sebentar hingga video berjalan dengan lancar."
           title={"PERHATIAN"}

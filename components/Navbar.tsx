@@ -92,6 +92,12 @@ export function Navbar({ className }: NavbarProps) {
           <NavLink href="/" pathname={pathname}>
             Home
           </NavLink>
+          <NavLink href="https://www.livemotogp.net" pathname={pathname}>
+            Watch MotoGP Live
+          </NavLink>
+          <NavLink href="https://www.livemotogp.net" pathname={pathname}>
+            Live Streming MotoGP
+          </NavLink>
 
           {/* Dropdown 1 */}
           <DropdownMenu>
@@ -112,7 +118,7 @@ export function Navbar({ className }: NavbarProps) {
               <DropdownMenuItem asChild>
                 <Link
                   target="_blank"
-                  href="https://www.zvstreams.com/search/label/Live%20MotoGP" 
+                  href="https://www.livemotogp.net/search/label/Live%20MotoGP"
                   className="text-muted-foreground"
                 >
                   MotoGP
@@ -121,7 +127,8 @@ export function Navbar({ className }: NavbarProps) {
               <DropdownMenuItem asChild>
                 <Link
                   target="_blank"
-                  href="https://www.zvstreams.com/search/label/Live%20WSBK"
+                  href="https://www.livemotogp.net/search/label/Live%20WSBK"
+                  title="WSBK Live Streaming Full Session"
                   className="text-muted-foreground"
                 >
                   WSBK
@@ -220,7 +227,7 @@ export function Navbar({ className }: NavbarProps) {
                   <DropdownMenuItem asChild>
                     <Link
                       target="_blank"
-                      href="https://www.zvstreams.com/search/label/Live%20MotoGP"
+                      href="https://www.livemotogp.net/search/label/Live%20MotoGP"
                       className="text-muted-foreground"
                     >
                       MotoGP
@@ -229,7 +236,7 @@ export function Navbar({ className }: NavbarProps) {
                   <DropdownMenuItem asChild>
                     <Link
                       target="_blank"
-                      href="https://www.zvstreams.com/search/label/Live%20WSBK"
+                      href="https://www.livemotogp.net/search/label/Live%20WSBK"
                       className="text-muted-foreground"
                     >
                       WSBK
