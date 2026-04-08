@@ -24,9 +24,9 @@ export const DataStreams: Streams[] = [
     type: "dash",
     links: [
       {
-        id: "065051b99bf5cf8d9a3bde5cbde6aaf9",
-        key: "214bd176832872339ce184338320f9a2",
-        url: "https://a201aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        id: "7eea72d6075245a99ee3255603d58853",
+        key: "6848ef60575579bf4d415db1032153ed",
+        url: "https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd",
       },
     ],
     excerpt:
@@ -38,14 +38,14 @@ export const DataStreams: Streams[] = [
   },
   {
     id: 2,
-    title: "Live Streaming MotoGP",
+    title: "Live Streaming MotoGP SPOTV 2",
     slug: "live-streaming-motogp",
-    type: "hls",
+    type: "dash",
     links: [
       {
-        id: "",
-        key: "",
-        url: "https://s1.strea.ru/index.m3u8",
+        id: "065051b99bf5cf8d9a3bde5cbde6aaf9",
+        key: "214bd176832872339ce184338320f9a2",
+        url: "https://a201aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
       },
     ],
     excerpt:
