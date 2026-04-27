@@ -4,7 +4,7 @@ import "./globals.css";
 import { Navbar } from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Script from "next/script";
-import "plyr/dist/plyr.css";
+// import "plyr/dist/plyr.cssnp";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import AdsHeader from "../../components/AdsHeader";
