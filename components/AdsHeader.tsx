@@ -4,7 +4,7 @@ import Script from "next/script";
 
 const AdsHeader = () => {
   return (
-    <>
+    <div className="max-w-5xl mx-auto w-full px-2">
        <style jsx>{`
             div[data-widget-id="1967942"] {
               min-height: 300px;
@@ -20,7 +20,7 @@ const AdsHeader = () => {
           })(window,"_mgq");
         `}
           </Script>
-    </>
+    </div>
   );
 };
 
