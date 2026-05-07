@@ -56,7 +56,7 @@ export default async function MotoGP({ params }: Props) {
   if (!data) return notFound();
 
   return (
-    <main className="container max-w-3xl mx-auto py-1 mb-20 px-4">
+    <main className="container max-w-5xl mx-auto py-1 mb-20 px-4">
       <div className=" space-y-3">
         <div className="relative aspect-video rounded-2xl overflow-hidden">
           <Image

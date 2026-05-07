@@ -24,9 +24,12 @@ export const DataStreams: Streams[] = [
     type: "dash",
     links: [
       {
-        id: "7eea72d6075245a99ee3255603d58853",
-        key: "6848ef60575579bf4d415db1032153ed",
-        url: "https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd",
+        id: "065051b99bf5cf8d9a3bde5cbde6aaf9",
+        key: "214bd176832872339ce184338320f9a2",
+        url: "https://a201aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        // id: "7eea72d6075245a99ee3255603d58853",
+        // key: "6848ef60575579bf4d415db1032153ed",
+        // url: "https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd",
       },
     ],
     excerpt:
@@ -76,14 +79,14 @@ export const DataStreams: Streams[] = [
   },
   {
     id: 4,
-    title: "Live Streaming MotoGP - SPOTV",
+    title: "Live Streaming MotoGP - RU",
     slug: "live-streaming-motogp-spotv",
-    type: "dash",
+    type: "hls",
     links: [
       {
-        id: "ec7ee27d83764e4b845c48cca31c8eef",
-        key: "9c0e4191203fccb0fde34ee29999129e",
-        url: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd",
+        id: "",
+        key: "",
+        url: "https://s1.strea.ru/index.m3u8",
       },
     ],
     excerpt:

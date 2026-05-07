@@ -11,20 +11,24 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="border-t border-gray-200 dark:border-white/10 bg-white dark:bg-black text-gray-700 dark:text-gray-400 transition-colors duration-300">
-      <div className="container mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className="border-t border-border bg-background text-muted-foreground transition-colors duration-300">
+      <div className="container mx-auto max-w-5xl px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* About */}
         <div>
-          <div className="text-lg md:text-xl font-semibold mb-3 text-gray-900 dark:text-white">
-            LIVEMotoGP.NET
+          <div className="text-lg md:text-xl font-semibold mb-3 text-foreground">
+            LIVEMotoGP.COM
           </div>
+
           <p className="text-sm md:text-base leading-relaxed">
             LIVE MotoGP NET/Live MotoGP Com adalah situs untuk nonton live
-            streaming MotoGP/WSBK gratis full session. <br />
+            streaming MotoGP/WSBK gratis full session.
+            <br />
             Live MotoGP Net is a site for watching MotoGP/WSBK live streaming
             for free, full session.
           </p>
         </div>
 
+        {/* Menu 1 */}
         <div className="flex flex-col gap-3 text-sm font-medium">
           <FooterLink href="https://t.me/+wz0g7OSf3ic3ODQ1">
             <BsTelegram /> Telegram
@@ -51,6 +55,7 @@ const Footer = () => {
           </FooterLink>
         </div>
 
+        {/* Menu 2 */}
         <div className="flex flex-col gap-3 text-sm font-medium">
           <FooterLink href="https://t.me/+wz0g7OSf3ic3ODQ1">
             <BsTelegram /> Telegram
@@ -79,7 +84,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom */}
-      <div className="border-t border-gray-200 dark:border-white/10 text-center text-sm text-gray-500 dark:text-gray-500 py-4">
+      <div className="border-t border-border text-center text-sm text-muted-foreground py-4">
         © {new Date().getFullYear()} LIVEMotoGP. All rights reserved.
       </div>
     </footer>
@@ -96,7 +101,7 @@ const FooterLink = ({
   <Link
     href={href}
     target="_blank"
-    className="flex items-center gap-2 hover:text-black dark:hover:text-white transition-colors duration-200"
+    className="flex items-center gap-2 transition-colors duration-200 hover:text-foreground"
   >
     {children}
   </Link>

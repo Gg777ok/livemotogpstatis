@@ -33,7 +33,7 @@ interface NavbarProps {
 export function Navbar({ className }: NavbarProps) {
   const pathname = usePathname();
   const [isScrolled, setIsScrolled] = React.useState(false);
-  const [isDark, setIsDark] = React.useState(false);
+  const [isDark, setIsDark] = React.useState(true);
   const [isDesktop, setIsDesktop] = React.useState(false);
 
   const searchInputRef = React.useRef<HTMLInputElement>(null);
@@ -69,7 +69,7 @@ export function Navbar({ className }: NavbarProps) {
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 w-full transition-all duration-300",
+        "sticky top-0 z-50 w-full  transition-all duration-300",
         isScrolled
           ? "bg-background/70 backdrop-blur-md border-b shadow-sm"
           : "bg-transparent",
@@ -77,7 +77,7 @@ export function Navbar({ className }: NavbarProps) {
       )}
       aria-label="Main Navigation"
     >
-      <div className="container mx-auto flex h-16 items-center justify-between px-4">
+      <div className="container mx-auto max-w-5xl flex h-16 items-center justify-between px-4">
         {/* Logo */}
         <Link
           href="/"
@@ -96,7 +96,7 @@ export function Navbar({ className }: NavbarProps) {
             Watch MotoGP Live
           </NavLink>
           <NavLink href="https://zvstreams911.blogspot.com/" pathname={pathname}>
-            Live Streming MotoGP
+            Live Streaming MotoGP
           </NavLink>
 
           {/* Dropdown 1 */}

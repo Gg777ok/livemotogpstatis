@@ -10,7 +10,7 @@ import { useState } from "react";
 import PaginationHome from "./PaginationHome";
 
 const MotionLink = motion(Link);
-const ITEMS_PER_PAGE = 6;
+const ITEMS_PER_PAGE = 8;
 
 export default function CardHome() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -29,7 +29,7 @@ export default function CardHome() {
   };
 
   return (
-    <main className="container max-w-5xl mx-auto py-12 px-2">
+    <main className="container max-w-5xl mx-auto py-5 px-2">
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -39,7 +39,7 @@ export default function CardHome() {
         <PlaySquareIcon /> MotoGP Live Streaming
       </motion.h1>
 
-      <div className="grid gap-2 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-2 grid-cols-2 sm:grid-cols-2 lg:grid-cols-4">
         {currentData.map((article, index) => (
           <MotionLink
             key={article.id}
