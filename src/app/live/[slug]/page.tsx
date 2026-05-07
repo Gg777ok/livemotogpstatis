@@ -58,12 +58,12 @@ export default async function MotoGP({ params }: Props) {
   return (
     <main className="container max-w-5xl mx-auto py-1 mb-20 px-4">
       <div className=" space-y-3">
-        <div className="relative aspect-video rounded-2xl overflow-hidden">
+        <div className="relative w-full h-72 sm:h-80 md:h-96 rounded-2xl overflow-hidden bg-black">
           <Image
             src={data.image}
             alt={data.title}
             fill
-            className="object-cover"
+            className="object-contain "
           />
         </div>
 
