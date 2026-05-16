@@ -25,7 +25,7 @@ export function BannerLiveMotoGP() {
             className="bg-white text-indigo-600 font-semibold hover:bg-gray-100 transition"
           >
             <Link
-              href="https://zvstreams911.blogspot.com/"
+              href="https://nonton-motogp.blogspot.com/"
               target="_blank"
               rel="noopener noreferrer"
               title="Live Streaming MotoGP"

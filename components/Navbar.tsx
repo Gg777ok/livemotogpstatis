@@ -92,10 +92,10 @@ export function Navbar({ className }: NavbarProps) {
           <NavLink href="/" pathname={pathname}>
             Home
           </NavLink>
-          <NavLink href="https://zvstreams911.blogspot.com/" pathname={pathname}>
+          <NavLink href="https://nonton-motogp.blogspot.com/" pathname={pathname}>
             Watch MotoGP Live
           </NavLink>
-          <NavLink href="https://zvstreams911.blogspot.com/" pathname={pathname}>
+          <NavLink href="https://nonton-motogp.blogspot.com/" pathname={pathname}>
             Live Streaming MotoGP
           </NavLink>
 
@@ -118,7 +118,7 @@ export function Navbar({ className }: NavbarProps) {
               <DropdownMenuItem asChild>
                 <Link
                   target="_blank"
-                  href="https://zvstreams911.blogspot.com/"
+                  href="https://nonton-motogp.blogspot.com/"
                   className="text-muted-foreground"
                 >
                   MotoGP
@@ -127,7 +127,7 @@ export function Navbar({ className }: NavbarProps) {
               <DropdownMenuItem asChild>
                 <Link
                   target="_blank"
-                  href="https://zvstreams911.blogspot.com/"
+                  href="https://nonton-motogp.blogspot.com/"
                   title="WSBK Live Streaming Full Session"
                   className="text-muted-foreground"
                 >
@@ -227,7 +227,7 @@ export function Navbar({ className }: NavbarProps) {
                   <DropdownMenuItem asChild>
                     <Link
                       target="_blank"
-                      href="https://zvstreams911.blogspot.com/search/label/Live%20MotoGP"
+                      href="https://nonton-motogp.blogspot.com/search/label/Live%20MotoGP"
                       className="text-muted-foreground"
                     >
                       MotoGP
@@ -236,7 +236,7 @@ export function Navbar({ className }: NavbarProps) {
                   <DropdownMenuItem asChild>
                     <Link
                       target="_blank"
-                      href="https://zvstreams911.blogspot.com/search/label/Live%20WSBK"
+                      href="https://nonton-motogp.blogspot.com/search/label/Live%20WSBK"
                       className="text-muted-foreground"
                     >
                       WSBK
