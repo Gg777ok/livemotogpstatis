@@ -88,19 +88,35 @@ export default async function MotoGP({ params }: Props) {
           message={
             <>
               <div>
-                Situs <span className="underline">LIVEMotoGP.COM</span>{" "}
+                Situs{" "}
+                <a
+                  href="https://livemotogp.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  LIVEMotoGP.COM
+                </a>{" "}
                 menggunakan iklan popup.
               </div>
+
               <div>
-                Ingin tanpa iklan? Tonton di
-                <span className="underline ml-1">LIVEMotoGP.NET</span>
+                Ingin tanpa iklan? Tonton di{" "}
+                <a
+                  href="https://zvstreams911.blogspot.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline ml-1 text-red-500"
+                >
+                  ▶ LIVEMotoGP.NET
+                </a>
               </div>
             </>
           }
           title={"PERHATIAN"}
         />
         <AdsArticle />
-        <BannerLiveMotoGP />
+        <BannerLiveMotoGP link="https://zvstreams911.blogspot.com/" />
         <AlertInfo
           message="▶️ Silakan tekan tombol Play di layar untuk mulai menonton. Player akan membutuhkan waktu sekitar 20–40 detik (maksimal 1 menit)  untuk memuat, jadi mohon tunggu sebentar hingga video berjalan dengan lancar."
           title={"PERHATIAN"}

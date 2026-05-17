@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { PlayCircle, Send } from "lucide-react"
 
-export function BannerLiveMotoGP() {
+export function BannerLiveMotoGP({ link = "https://nonton-motogp.blogspot.com/"}: {link?:string}) {
   return (
     <Card className="relative w-full overflow-hidden rounded-2xl border-0 shadow-lg">
       {/* Background gradient */}
@@ -25,7 +25,7 @@ export function BannerLiveMotoGP() {
             className="bg-white font-semibold text-indigo-600 transition hover:bg-gray-100"
           >
             <Link
-              href="https://nonton-motogp.blogspot.com/"
+              href={link}
               target="_blank"
               rel="noopener noreferrer"
               title="Live Streaming MotoGP"
