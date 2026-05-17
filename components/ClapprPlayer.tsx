@@ -65,7 +65,7 @@ export default function DashPlayer({ url, drmId, drmKey, poster }: Props) {
         autoPlay: true,
         mute: false,
         // poster,
-        watermark: poster,
+        watermark: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOndvBzfLQYUyem_5zPXNBEjKRG_T2IV02yiUSERFN1YsGPXcDgzuDYp6X14EM6P14pRrR36H23Nm6ReJopmCF1SHPKZUx5nKxkZjU58GsP0CvXBZ8XSyBQnm5MJJWa0hxR7rGA5UED1botfZwA3IfWrGK5TGbPbAzpdnB2UuTJpccUboNFroYXv9dw7aU/s1621/Picsart_25-06-23_11-23-05-300.jpg",
         position: "top-right",
         plugins: [DashShakaPlayback, LevelSelector],
         levelSelectorConfig: {

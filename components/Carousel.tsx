@@ -27,7 +27,6 @@ export function CarouselSize({ images, autoPlay = true }: ImageCarouselProps) {
     Autoplay({ delay: 4000, stopOnInteraction: true }),
   );
 
-
   return (
     <div className="w-full max-w-6xl mx-auto">
       <Carousel
@@ -43,7 +42,8 @@ export function CarouselSize({ images, autoPlay = true }: ImageCarouselProps) {
             >
               <div className="p-2">
                 <Link
-                  href={src.link} target="_blank"
+                  href={src.link}
+                  target="_blank"
                   className="group block focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-2xl"
                 >
                   <div className="relative overflow-hidden rounded-2xl">
@@ -54,6 +54,7 @@ export function CarouselSize({ images, autoPlay = true }: ImageCarouselProps) {
                       width={800}
                       height={500}
                       priority={index === 0}
+                      loading="eager"
                       className="w-full h-[300px] object-cover transition-transform duration-500 group-hover:scale-105"
                     />
 

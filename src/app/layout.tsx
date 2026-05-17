@@ -65,7 +65,7 @@ export const metadata: Metadata = {
       "Link Live Streaming MotoGP 2026, Siaran Langsung: MotoGP, Moto2, Moto3, WSBK 2026, Race MotoGP, Warm Up MotoGP, Sprint Race MotoGP, Q2 MotoGP, Q1 MotoGP, FP MotoGP, Practice MotoGP Nonton live streaming MotoGP 2026, jadwal race terbaru, klasemen pembalap, hasil balapan, dan berita MotoGP update setiap hari. Kunjungi juga LIVEMotoGP.COM untuk pengalaman streaming tanpa gangguan.",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtDaqI1kAcEOvyeACrUGkKphQE3OP6gupmyQY780EhdAboLHQHRAq5FsnzFLPSnI2BLC1fA9d3QjomMexZ_zoeFXTDSS8kv7rP16LdO95xlGoFqjyGMzDhdd-Sr08EjgiRAc75IXOjtZAooq6SdsQboKxJUSmr29VKMKTn8e85RCHmYZRrKuUEPnDloMk/s512/og-image.png",
         width: 1200,
         height: 630,
         alt: "Live Streaming MotoGP 2026",
@@ -78,12 +78,12 @@ export const metadata: Metadata = {
     title: "LIVEMotoGP/LIVEMotoGP.COM - LIVE MotoGP 2026 Live Streaming MotoGP 2026",
     description:
       "Link Live Streaming MotoGP 2026, Siaran Langsung: MotoGP, Moto2, Moto3, WSBK 2026, Race MotoGP, Warm Up MotoGP, Sprint Race MotoGP, Q2 MotoGP, Q1 MotoGP, FP MotoGP, Practice MotoGP Nonton live streaming MotoGP 2026, jadwal race terbaru, klasemen pembalap, hasil balapan, dan berita MotoGP update setiap hari. Kunjungi juga LIVEMotoGP.COM untuk pengalaman streaming tanpa gangguan.",
-    images: ["/og-image.png"],
+    images: ["https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtDaqI1kAcEOvyeACrUGkKphQE3OP6gupmyQY780EhdAboLHQHRAq5FsnzFLPSnI2BLC1fA9d3QjomMexZ_zoeFXTDSS8kv7rP16LdO95xlGoFqjyGMzDhdd-Sr08EjgiRAc75IXOjtZAooq6SdsQboKxJUSmr29VKMKTn8e85RCHmYZRrKuUEPnDloMk/s512/og-image.png"],
   },
 
   icons: {
-    icon: "/og-image.png",
-    apple: "/og-image.png",
+    icon: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtDaqI1kAcEOvyeACrUGkKphQE3OP6gupmyQY780EhdAboLHQHRAq5FsnzFLPSnI2BLC1fA9d3QjomMexZ_zoeFXTDSS8kv7rP16LdO95xlGoFqjyGMzDhdd-Sr08EjgiRAc75IXOjtZAooq6SdsQboKxJUSmr29VKMKTn8e85RCHmYZRrKuUEPnDloMk/s512/og-image.png",
+    apple: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtDaqI1kAcEOvyeACrUGkKphQE3OP6gupmyQY780EhdAboLHQHRAq5FsnzFLPSnI2BLC1fA9d3QjomMexZ_zoeFXTDSS8kv7rP16LdO95xlGoFqjyGMzDhdd-Sr08EjgiRAc75IXOjtZAooq6SdsQboKxJUSmr29VKMKTn8e85RCHmYZRrKuUEPnDloMk/s512/og-image.png",
   },
 
   viewport: {
@@ -126,10 +126,10 @@ export default function RootLayout({
             <SpeedInsights />
             <div data-type="_mgwidget" data-widget-id="1967939"></div>
             <div data-type="_mgwidget" data-widget-id="1978333"></div>
-            <Script
+            {/* <Script
               src="https://welcomingexpulsion.com/8e/9d/37/8e9d37d13bce33fd36e49421cfd5bc7b.js"
               strategy="afterInteractive"
-            />
+            /> */}
             <Script id="mg-script" strategy="afterInteractive">
               {`
                 (function(w,q){w[q]=w[q]||[];w[q].push(["_mgc.load"])})(window,"_mgq");

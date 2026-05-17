@@ -84,7 +84,15 @@ export function Navbar({ className }: NavbarProps) {
           className="text-lg font-semibold tracking-tight"
           aria-label="Homepage"
         >
-          <Image src={gambar} alt="Logo" width={150} height={150} priority />
+          <Image
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhV0bqaj5Fg8JbpqCs1OANTVSGXVvk6qiAUP3U0jeIN2AlvOqRfP0zomnAocezCYQt8U9gbN6Cqy_hQ12LeTM3yyn-HDGxYo6nMfecSnSF3i_QpDQiflEUbsPPT_tUPriDps3UldrdREfmwevgcYpkHrv4qcT69ikZnsnKLpW0iHJNtOAasCofYrjXr8pU/s1406/logo.png"
+            alt="Logo"
+            width={150}
+            height={150}
+            priority
+            unoptimized
+          />
+          {/* <Image  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhV0bqaj5Fg8JbpqCs1OANTVSGXVvk6qiAUP3U0jeIN2AlvOqRfP0zomnAocezCYQt8U9gbN6Cqy_hQ12LeTM3yyn-HDGxYo6nMfecSnSF3i_QpDQiflEUbsPPT_tUPriDps3UldrdREfmwevgcYpkHrv4qcT69ikZnsnKLpW0iHJNtOAasCofYrjXr8pU/s1406/logo.png" alt="Logo" width={150} height={150} priority  loading="eager" /> */}
         </Link>
 
         {/* Desktop Menu */}
@@ -92,10 +100,16 @@ export function Navbar({ className }: NavbarProps) {
           <NavLink href="/" pathname={pathname}>
             Home
           </NavLink>
-          <NavLink href="https://nonton-motogp.blogspot.com/" pathname={pathname}>
+          <NavLink
+            href="https://nonton-motogp.blogspot.com/"
+            pathname={pathname}
+          >
             Watch MotoGP Live
           </NavLink>
-          <NavLink href="https://nonton-motogp.blogspot.com/" pathname={pathname}>
+          <NavLink
+            href="https://nonton-motogp.blogspot.com/"
+            pathname={pathname}
+          >
             Live Streaming MotoGP
           </NavLink>
 

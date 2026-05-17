@@ -64,6 +64,7 @@ export default async function MotoGP({ params }: Props) {
             alt={data.title}
             fill
             className="object-contain "
+            loading="eager"
           />
         </div>
 
@@ -101,7 +102,7 @@ export default async function MotoGP({ params }: Props) {
         <AdsArticle />
         <BannerLiveMotoGP />
         <AlertInfo
-          message="▶️ Silakan tekan tombol Play di layar untuk mulai menonton. Player akan membutuhkan waktu sekitar 10–20 detik untuk memuat, jadi mohon tunggu sebentar hingga video berjalan dengan lancar."
+          message="▶️ Silakan tekan tombol Play di layar untuk mulai menonton. Player akan membutuhkan waktu sekitar 20–40 detik (maksimal 1 menit)  untuk memuat, jadi mohon tunggu sebentar hingga video berjalan dengan lancar."
           title={"PERHATIAN"}
         />
         <div className="prose prose-neutral dark:prose-invert max-w-none">

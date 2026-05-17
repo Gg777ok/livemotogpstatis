@@ -20,7 +20,7 @@ export default function CardHome() {
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const currentData = DataStreams.slice(
     startIndex,
-    startIndex + ITEMS_PER_PAGE
+    startIndex + ITEMS_PER_PAGE,
   );
 
   const handlePageChange = (page: number) => {
@@ -59,6 +59,7 @@ export default function CardHome() {
                   src={article.image}
                   alt={article.title}
                   fill
+                  loading="eager"
                   sizes="(max-width: 640px) 50vw,
            (max-width: 1024px) 50vw,
            33vw"
@@ -88,7 +89,11 @@ export default function CardHome() {
         ))}
       </div>
       <div className="mt-10">
-        <PaginationHome currentPage={currentPage} totalPages={totalPages} handlePageChange={handlePageChange}/>
+        <PaginationHome
+          currentPage={currentPage}
+          totalPages={totalPages}
+          handlePageChange={handlePageChange}
+        />
       </div>
     </main>
   );
