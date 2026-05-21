@@ -24,7 +24,8 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://livemotogp.com"),
 
   title: {
-    default: "LIVEMotoGP/LIVEMotoGP.COM  - LIVE MotoGP 2026 Live Streaming & Berita MotoGP 2026",
+    default:
+      "LIVEMotoGP/LIVEMotoGP.COM  - LIVE MotoGP 2026 Live Streaming & Berita MotoGP 2026",
     template: "%s | LIVEMotoGP",
   },
 
@@ -60,7 +61,8 @@ export const metadata: Metadata = {
     locale: "id_ID",
     url: "https://livemotogp.com",
     siteName: "LIVEMotoGP",
-    title: "LIVEMotoGP/LIVEMotoGP.COM  - LIVE MotoGP 2026 Live Streaming & Berita MotoGP 2026",
+    title:
+      "LIVEMotoGP/LIVEMotoGP.COM  - LIVE MotoGP 2026 Live Streaming & Berita MotoGP 2026",
     description:
       "Link Live Streaming MotoGP 2026, Siaran Langsung: MotoGP, Moto2, Moto3, WSBK 2026, Race MotoGP, Warm Up MotoGP, Sprint Race MotoGP, Q2 MotoGP, Q1 MotoGP, FP MotoGP, Practice MotoGP Nonton live streaming MotoGP 2026, jadwal race terbaru, klasemen pembalap, hasil balapan, dan berita MotoGP update setiap hari. Kunjungi juga LIVEMotoGP.COM untuk pengalaman streaming tanpa gangguan.",
     images: [
@@ -75,15 +77,19 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "LIVEMotoGP/LIVEMotoGP.COM - LIVE MotoGP 2026 Live Streaming MotoGP 2026",
+    title:
+      "LIVEMotoGP/LIVEMotoGP.COM - LIVE MotoGP 2026 Live Streaming MotoGP 2026",
     description:
       "Link Live Streaming MotoGP 2026, Siaran Langsung: MotoGP, Moto2, Moto3, WSBK 2026, Race MotoGP, Warm Up MotoGP, Sprint Race MotoGP, Q2 MotoGP, Q1 MotoGP, FP MotoGP, Practice MotoGP Nonton live streaming MotoGP 2026, jadwal race terbaru, klasemen pembalap, hasil balapan, dan berita MotoGP update setiap hari. Kunjungi juga LIVEMotoGP.COM untuk pengalaman streaming tanpa gangguan.",
-    images: ["https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtDaqI1kAcEOvyeACrUGkKphQE3OP6gupmyQY780EhdAboLHQHRAq5FsnzFLPSnI2BLC1fA9d3QjomMexZ_zoeFXTDSS8kv7rP16LdO95xlGoFqjyGMzDhdd-Sr08EjgiRAc75IXOjtZAooq6SdsQboKxJUSmr29VKMKTn8e85RCHmYZRrKuUEPnDloMk/s512/og-image.png"],
+    images: [
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtDaqI1kAcEOvyeACrUGkKphQE3OP6gupmyQY780EhdAboLHQHRAq5FsnzFLPSnI2BLC1fA9d3QjomMexZ_zoeFXTDSS8kv7rP16LdO95xlGoFqjyGMzDhdd-Sr08EjgiRAc75IXOjtZAooq6SdsQboKxJUSmr29VKMKTn8e85RCHmYZRrKuUEPnDloMk/s512/og-image.png",
+    ],
   },
 
   icons: {
     icon: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtDaqI1kAcEOvyeACrUGkKphQE3OP6gupmyQY780EhdAboLHQHRAq5FsnzFLPSnI2BLC1fA9d3QjomMexZ_zoeFXTDSS8kv7rP16LdO95xlGoFqjyGMzDhdd-Sr08EjgiRAc75IXOjtZAooq6SdsQboKxJUSmr29VKMKTn8e85RCHmYZRrKuUEPnDloMk/s512/og-image.png",
-    apple: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtDaqI1kAcEOvyeACrUGkKphQE3OP6gupmyQY780EhdAboLHQHRAq5FsnzFLPSnI2BLC1fA9d3QjomMexZ_zoeFXTDSS8kv7rP16LdO95xlGoFqjyGMzDhdd-Sr08EjgiRAc75IXOjtZAooq6SdsQboKxJUSmr29VKMKTn8e85RCHmYZRrKuUEPnDloMk/s512/og-image.png",
+    apple:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtDaqI1kAcEOvyeACrUGkKphQE3OP6gupmyQY780EhdAboLHQHRAq5FsnzFLPSnI2BLC1fA9d3QjomMexZ_zoeFXTDSS8kv7rP16LdO95xlGoFqjyGMzDhdd-Sr08EjgiRAc75IXOjtZAooq6SdsQboKxJUSmr29VKMKTn8e85RCHmYZRrKuUEPnDloMk/s512/og-image.png",
   },
 
   viewport: {
@@ -99,6 +105,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta
+        name="google-site-verification"
+        content="xVjUOmyMEh47V9G9RsUsjdBI1_TsLi8zG1qkIXS--kU"
+      />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
