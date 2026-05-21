@@ -10,6 +10,7 @@ import AlertInfo from "../../../../components/AlertInfo";
 import AlertWarning from "../../../../components/AlertWarning";
 import AdsArticle from "../../../../components/AdsArticle";
 import { BannerLiveMotoGP } from "../../../../components/BannerLivemotogp";
+import { BannerShopeeMotoGP } from "../../../../components/ShopeeBanner";
 
 interface Props {
   params: { slug: string };
@@ -57,6 +58,9 @@ export default async function MotoGP({ params }: Props) {
 
   return (
     <main className="container max-w-5xl mx-auto py-1 mb-20 px-4">
+      <div className="mb-2">
+        <BannerShopeeMotoGP />
+      </div>
       <div className=" space-y-3">
         <div className="relative w-full h-72 sm:h-80 md:h-96 rounded-2xl overflow-hidden bg-black">
           <Image
@@ -88,27 +92,33 @@ export default async function MotoGP({ params }: Props) {
           message={
             <>
               <div>
-                Situs{" "}
+                Link streaming{" "}
                 <a
-                  href="https://livemotogp.com"
+                  href="https://livemotogp.com/live/live-streaming-motogp-spotv-2"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
                 >
-                  LIVEMotoGP.COM
+                  <span className="text-green-400 font-bold bg-green-400/10 px-0 py-1 rounded">
+                    https://livemotogp.com/live/live-streaming-motogp-spotv-2
+                  </span>
                 </a>{" "}
-                menggunakan iklan popup.
+                direkomendasikan untuk kualitas streaming yang lebih lancar,
+                namun proses loading player awal dapat memakan waktu sekitar
+                20–40 detik (maksimal ±1 menit).
               </div>
 
               <div>
-                Ingin tanpa iklan? Tonton di{" "}
+                Alternatif streaming tersedia di{" "}
                 <a
                   href="https://zvstreams911.blogspot.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline ml-1 text-red-500"
+                  className="underline  text-red-500"
                 >
-                  ▶ LIVEMotoGP.NET
+                  <span className="text-green-400 font-bold bg-green-400/10 px-0 py-1 rounded">
+                  LIVEMotoGP.NET
+                  </span>
                 </a>
               </div>
             </>
@@ -141,7 +151,7 @@ export default async function MotoGP({ params }: Props) {
         <div className="py-3">
           <div className="grid grid-cols-2 lg:flex lg:flex-wrap gap-2">
             <Link
-              href="https://welcomingexpulsion.com/pc91vdji?key=26074ca280654af24ec3252d5bef89eb"
+              href="https://s.shopee.co.id/AUr1kC1KwZ"
               target="_blank"
               className="w-full lg:w-auto"
             >
@@ -151,7 +161,7 @@ export default async function MotoGP({ params }: Props) {
             </Link>
 
             <Link
-              href="https://welcomingexpulsion.com/pc91vdji?key=26074ca280654af24ec3252d5bef89eb"
+              href="https://s.shopee.co.id/50W5C16I8g"
               target="_blank"
               className="w-full lg:w-auto"
             >
@@ -161,7 +171,7 @@ export default async function MotoGP({ params }: Props) {
             </Link>
 
             <Link
-              href="https://welcomingexpulsion.com/pc91vdji?key=26074ca280654af24ec3252d5bef89eb"
+              href="https://s.shopee.co.id/3LNrEoplqb"
               target="_blank"
               className="w-full lg:w-auto"
             >
@@ -171,7 +181,7 @@ export default async function MotoGP({ params }: Props) {
             </Link>
 
             <Link
-              href="https://welcomingexpulsion.com/pc91vdji?key=26074ca280654af24ec3252d5bef89eb"
+              href="https://s.shopee.co.id/AKXbZnvM49"
               target="_blank"
               className="w-full lg:w-auto"
             >
@@ -255,10 +265,13 @@ export default async function MotoGP({ params }: Props) {
               </Link>
             </div>
           </div>
-          <div className="py-3">
+          <div className="py-3 mb-3">
             <Link href="/">
               <Button variant="default">Kembali</Button>
             </Link>
+          </div>
+          <div className="mb-2">
+            <BannerShopeeMotoGP />
           </div>
         </div>
       </div>

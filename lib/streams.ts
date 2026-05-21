@@ -33,8 +33,9 @@ export const DataStreams: Streams[] = [
       },
     ],
     excerpt:
-      "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
+      "Situs ini menyediakan link streaming MotoGP 2026 gratis kualitas HD lengkap dengan jadwal race, live streaming Sprint Race, Full Race, dan update Grand Prix terbaru setiap minggu. Nikmati streaming MotoGP online dengan akses cepat dan kualitas video stabil untuk semua seri MotoGP 2026.",
+    image:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
@@ -52,8 +53,9 @@ export const DataStreams: Streams[] = [
       },
     ],
     excerpt:
-      "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
+      "Situs ini menyediakan link streaming MotoGP 2026 gratis kualitas HD lengkap dengan jadwal race, live streaming Sprint Race, Full Race, dan update Grand Prix terbaru setiap minggu. Nikmati streaming MotoGP online dengan akses cepat dan kualitas video stabil untuk semua seri MotoGP 2026.",
+    image:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
@@ -71,8 +73,9 @@ export const DataStreams: Streams[] = [
       },
     ],
     excerpt:
-      "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
+      "Situs ini menyediakan link streaming MotoGP 2026 gratis kualitas HD lengkap dengan jadwal race, live streaming Sprint Race, Full Race, dan update Grand Prix terbaru setiap minggu. Nikmati streaming MotoGP online dengan akses cepat dan kualitas video stabil untuk semua seri MotoGP 2026.",
+    image:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
@@ -90,8 +93,9 @@ export const DataStreams: Streams[] = [
       },
     ],
     excerpt:
-      "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
+      "Situs ini menyediakan link streaming MotoGP 2026 gratis kualitas HD lengkap dengan jadwal race, live streaming Sprint Race, Full Race, dan update Grand Prix terbaru setiap minggu. Nikmati streaming MotoGP online dengan akses cepat dan kualitas video stabil untuk semua seri MotoGP 2026.",
+    image:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
@@ -109,8 +113,9 @@ export const DataStreams: Streams[] = [
       },
     ],
     excerpt:
-      "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
+      "Situs ini menyediakan link streaming MotoGP 2026 gratis kualitas HD lengkap dengan jadwal race, live streaming Sprint Race, Full Race, dan update Grand Prix terbaru setiap minggu. Nikmati streaming MotoGP online dengan akses cepat dan kualitas video stabil untuk semua seri MotoGP 2026.",
+    image:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
@@ -128,8 +133,9 @@ export const DataStreams: Streams[] = [
       },
     ],
     excerpt:
-      "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
+      "Situs ini menyediakan link streaming MotoGP 2026 gratis kualitas HD lengkap dengan jadwal race, live streaming Sprint Race, Full Race, dan update Grand Prix terbaru setiap minggu. Nikmati streaming MotoGP online dengan akses cepat dan kualitas video stabil untuk semua seri MotoGP 2026.",
+    image:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
     date: "2026-01-13",
     author: "X",
     category: "Live WSBK",
@@ -147,8 +153,9 @@ export const DataStreams: Streams[] = [
       },
     ],
     excerpt:
-      "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
+      "Situs ini menyediakan link streaming MotoGP 2026 gratis kualitas HD lengkap dengan jadwal race, live streaming Sprint Race, Full Race, dan update Grand Prix terbaru setiap minggu. Nikmati streaming MotoGP online dengan akses cepat dan kualitas video stabil untuk semua seri MotoGP 2026.",
+    image:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
@@ -166,8 +173,9 @@ export const DataStreams: Streams[] = [
       },
     ],
     excerpt:
-      "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
+      "Situs ini menyediakan link streaming MotoGP 2026 gratis kualitas HD lengkap dengan jadwal race, live streaming Sprint Race, Full Race, dan update Grand Prix terbaru setiap minggu. Nikmati streaming MotoGP online dengan akses cepat dan kualitas video stabil untuk semua seri MotoGP 2026.",
+    image:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
@@ -185,8 +193,9 @@ export const DataStreams: Streams[] = [
       },
     ],
     excerpt:
-      "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
+      "Situs ini menyediakan link streaming MotoGP 2026 gratis kualitas HD lengkap dengan jadwal race, live streaming Sprint Race, Full Race, dan update Grand Prix terbaru setiap minggu. Nikmati streaming MotoGP online dengan akses cepat dan kualitas video stabil untuk semua seri MotoGP 2026.",
+    image:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
@@ -204,27 +213,32 @@ export const DataStreams: Streams[] = [
       },
     ],
     excerpt:
-      "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
+      "Situs ini menyediakan link streaming MotoGP 2026 gratis kualitas HD lengkap dengan jadwal race, live streaming Sprint Race, Full Race, dan update Grand Prix terbaru setiap minggu. Nikmati streaming MotoGP online dengan akses cepat dan kualitas video stabil untuk semua seri MotoGP 2026.",
+    image:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
   },
   {
     id: 11,
-    title: "Nonton Live Streaming MotoGP",
-    slug: "nonton-live-streaming-motogp",
+    title: "Nonton MotoGP ",
+    slug: "nonton-motogp",
     type: "dash",
     links: [
       {
-        id: "7eea72d6075245a99ee3255603d58853",
-        key: "6848ef60575579bf4d415db1032153ed",
-        url: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
+        id: "065051b99bf5cf8d9a3bde5cbde6aaf9",
+        key: "214bd176832872339ce184338320f9a2",
+        url: "https://a201aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        // id: "7eea72d6075245a99ee3255603d58853",
+        // key: "6848ef60575579bf4d415db1032153ed",
+        // url: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
       },
     ],
     excerpt:
-      "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
+      "Situs ini menyediakan link streaming MotoGP 2026 gratis kualitas HD lengkap dengan jadwal race, live streaming Sprint Race, Full Race, dan update Grand Prix terbaru setiap minggu. Nikmati streaming MotoGP online dengan akses cepat dan kualitas video stabil untuk semua seri MotoGP 2026.",
+    image:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",
@@ -242,8 +256,9 @@ export const DataStreams: Streams[] = [
       },
     ],
     excerpt:
-      "Situs ini menyediakan Links Streaming MotoGP 2026 Gratis dengan dukungan iklan pop-up. Ingin pengalaman tanpa iklan yang mengganggu? Kunjungi https://www.livemotogp.net untuk streaming lebih nyaman.",
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
+      "Situs ini menyediakan link streaming MotoGP 2026 gratis kualitas HD lengkap dengan jadwal race, live streaming Sprint Race, Full Race, dan update Grand Prix terbaru setiap minggu. Nikmati streaming MotoGP online dengan akses cepat dan kualitas video stabil untuk semua seri MotoGP 2026.",
+    image:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4cZdvTGAHM3fLWwu0NHFbk8dAlc4ELdWtOOcre2838ccZU1UyaFe0Zkl4MMbGpfZYJdI7gh0sKtfvsQAW-Rkn13k9lR3f3vgw9sbsayWyuf51-8NIk_cITkSOT5BtNA-EimIbKOxg2x63v-NGlJ6krL-ktta06wVaItONig8FF_Z7yo8zabTEvkclsY/s1536/Logo%20neon%20LIVEMotoGP.NET%20dengan%20streaming%20langsung.png",
     date: "2026-01-13",
     author: "X",
     category: "Live MotoGP",

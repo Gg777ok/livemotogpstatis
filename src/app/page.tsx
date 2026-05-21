@@ -4,6 +4,7 @@ import AdsBanner from "../../components/AdsBanner";
 import CardHome from "../../components/CardHome";
 import { CarouselSize } from "../../components/Carousel";
 import { BannerLiveMotoGP } from "../../components/BannerLivemotogp";
+import { BannerShopeeMotoGP } from "../../components/ShopeeBanner";
 
 export default function Home() {
   const images = [
@@ -43,8 +44,9 @@ export default function Home() {
       <main className="flex min-h-screen  w-full max-w-5xl flex-col items-center justify-between py-1 px-1 bg-white dark:bg-neutral-950 sm:items-start">
         <CarouselSize images={images} />
         <AdsBanner />
-        <div className="w-full pt-2 px-2">
+        <div className="w-full pt-2 px-2 space-y-3">
           <BannerLiveMotoGP />
+          <BannerShopeeMotoGP />
         </div>
         <CardHome />
         <div className="mt-1">
