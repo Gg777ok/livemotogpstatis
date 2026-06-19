@@ -101,6 +101,12 @@ export function Navbar({ className }: NavbarProps) {
             Home
           </NavLink>
           <NavLink
+            href="https://t.me/+CBkG1-074V80Mjdl"
+            pathname={pathname}
+          >
+          Telegram
+          </NavLink>
+          <NavLink
             href="https://nonton-motogp.blogspot.com/"
             pathname={pathname}
           >

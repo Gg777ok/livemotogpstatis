@@ -39,7 +39,7 @@ export function BannerLiveMotoGP({ link = "https://nonton-motogp.blogspot.com/"}
             className="bg-[#229ED9] text-white font-semibold transition hover:opacity-90"
           >
             <Link
-              href="https://t.me/+wz0g7OSf3ic3ODQ1"
+              href="https://t.me/+CBkG1-074V80Mjdl"
               target="_blank"
               rel="noopener noreferrer"
               title="Join Telegram MotoGP"
