@@ -30,7 +30,7 @@ const Footer = () => {
 
         {/* Menu 1 */}
         <div className="flex flex-col gap-3 text-sm font-medium">
-          <FooterLink href="https://t.me/+CBkG1-074V80Mjdl">
+          <FooterLink href="https://t.me/+A_4Gjmv_RSwzODhl">
             <BsTelegram /> Telegram
           </FooterLink>
 
@@ -57,7 +57,7 @@ const Footer = () => {
 
         {/* Menu 2 */}
         <div className="flex flex-col gap-3 text-sm font-medium">
-          <FooterLink href="https://t.me/+CBkG1-074V80Mjdl">
+          <FooterLink href="https://t.me/+A_4Gjmv_RSwzODhl">
             <BsTelegram /> Telegram
           </FooterLink>
 
