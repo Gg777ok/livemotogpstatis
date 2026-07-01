@@ -113,7 +113,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* <script src="https://welcomingexpulsion.com/01/40/c7/0140c7f2b4b2a1bb3e8b3837c856198a.js"></script> */}
-        {/* {process.env.VERCEL_ENV === "production" && (
+        {process.env.VERCEL_ENV === "production" && (
           <>
             <Script
               src="https://welcomingexpulsion.com/01/40/c7/0140c7f2b4b2a1bb3e8b3837c856198a.js"
@@ -124,13 +124,13 @@ export default function RootLayout({
               strategy="afterInteractive"
             />
           </>
-        )} */}
+        )}
         <Navbar />
         {process.env.VERCEL_ENV === "production" && <AdsHeader />}
         {children}
         <Footer />
         {/* <AdsFloating /> */}
-        {/* {process.env.VERCEL_ENV === "production" && (
+        {process.env.VERCEL_ENV === "production" && (
           <>
             <Analytics />
             <SpeedInsights />
@@ -146,7 +146,7 @@ export default function RootLayout({
               `}
             </Script>
           </>
-        )} */}
+        )}
       </body>
     </html>
   );

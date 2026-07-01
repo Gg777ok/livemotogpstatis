@@ -6,12 +6,14 @@ import ClapprPlayer from "./ClapprPlayer";
 import AlertInfo from "./AlertInfo";
 import { Button } from "@/components/ui/button";
 import { DataStreams } from "../lib/streams";
+import ButtonSocial from "./ButtonSocial";
 
 const servers = [
   {
     name: "SERVER UTAMA",
-    type: "hls",
-    url: "https://s1.strea.ru/index.m3u8",
+    url: "https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd",
+    id: "7eea72d6075245a99ee3255603d58853",
+    key: "6848ef60575579bf4d415db1032153ed",
   },
   {
     name: "SERVER IOS",
@@ -28,7 +30,12 @@ const servers = [
     key: "6848ef60575579bf4d415db1032153ed",
   },
   {
-    name: "SERVER 2",
+    name: "SERVER 1 RU",
+    type: "hls",
+    url: "https://s1.strea.ru/index.m3u8",
+  },
+  {
+    name: "SERVER 2 RU",
     type: "hls",
     url: "https://s2.strea.ru/index.m3u8",
   },
@@ -69,8 +76,8 @@ const servers = [
 ];
 
 export default function StreamingPage() {
-  const [activeServer, setActiveServer] = useState(4);;
-   
+  const [activeServer, setActiveServer] = useState(0);
+
   const current = useMemo(() => servers[activeServer], [activeServer]);
 
   const changeServer = (index: number) => {
@@ -85,25 +92,26 @@ export default function StreamingPage() {
       sessionStorage.setItem("adShown", "true");
     }
   };
- 
-  
 
   return (
     <main className="container mx-auto max-w-5xl px-4 py-5 space-y-5">
-      <header className="space-y-3">
-        <h1 className="text-center text-2xl md:text-4xl font-bold">
-          NONTON MOTOGP LIVE STREAMING
+      <header className="space-y-3 mb-3">
+        <h1 className="text-xl md:text-md font-bold">
+          LIVEMOTOGP.COM - NONTON MOTOGP LIVE STREAMING
         </h1>
-
+        <AlertInfo
+          message="▶️ Silakan tekan tombol Play di layar untuk mulai menonton. Player akan membutuhkan waktu sekitar 20–40 detik (maksimal 1 menit)  untuk memuat, jadi mohon tunggu sebentar hingga video berjalan dengan lancar."
+          title={"PERHATIAN"}
+        />
         <AlertInfo
           title="PERHATIAN"
-          message="Jika streaming tidak tersedia silakan ganti ke server lain."
+          message="Jika streaming tidak tersedia, silakan ganti ke server lain. Jika masih mengalami error, jangan lupa bergabung ke Telegram untuk mendapatkan update dan bantuan terbaru."
         />
       </header>
-
+      <ButtonSocial />
       {/* PLAYER */}
 
-      <div className="overflow-hidden rounded-2xl bg-black">
+      <div className="overflow-hidden rounded-2xl bg-black mb-3">
         {current.type === "hls" ? (
           <PlyrHlsPlayer key={current.url} url={current.url} autoPlay />
         ) : (
@@ -118,13 +126,13 @@ export default function StreamingPage() {
 
       {/* SERVER */}
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 my-0 mb-3">
         {servers.map((server, index) => (
           <Button
             key={server.name}
             onClick={() => changeServer(index)}
             variant={index === activeServer ? "destructive" : "outline"}
-            className="w-full"
+            className="w-full h-10 py-3 text-xs sm:text-sm md:text-base whitespace-normal text-center leading-tight"
           >
             {server.name}
           </Button>
@@ -132,15 +140,11 @@ export default function StreamingPage() {
       </div>
 
       {/* Disclaimer */}
-
-      <div className="rounded-lg border border-red-200 bg-red-50 p-4 text-sm leading-6">
-        <span className="font-bold text-red-600">⚠ Disclaimer</span>
-
-        <p className="mt-2">
-          Website ini hanya menampilkan video yang di-embed dari pihak ketiga.
-          Kami tidak menyimpan ataupun mengunggah video apa pun.
-        </p>
-      </div>
+      <AlertInfo
+        title="PERHATIAN"
+        message=" Website ini hanya menampilkan video yang di-embed dari pihak ketiga.
+          Kami tidak menyimpan ataupun mengunggah video apa pun."
+      />
     </main>
   );
 }
