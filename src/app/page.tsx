@@ -5,6 +5,7 @@ import CardHome from "../../components/CardHome";
 import { CarouselSize } from "../../components/Carousel";
 import { BannerLiveMotoGP } from "../../components/BannerLivemotogp";
 import { BannerShopeeMotoGP } from "../../components/ShopeeBanner";
+import StreamingPage from "../../components/PlayerHome";
 
 export default function Home() {
   const images = [
@@ -42,7 +43,8 @@ export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-neutral-950">
       <main className="flex min-h-screen  w-full max-w-5xl flex-col items-center justify-between py-1 px-1 bg-white dark:bg-neutral-950 sm:items-start">
-        <CarouselSize images={images} />
+        <StreamingPage />
+        {/* <CarouselSize images={images} />
         <AdsBanner />
         <div className="w-full pt-2 px-2 space-y-3">
           <BannerLiveMotoGP />
@@ -51,7 +53,7 @@ export default function Home() {
         <CardHome />
         <div className="mt-1">
           <AdsArticle />
-        </div>
+        </div> */}
       </main>
     </div>
   );
