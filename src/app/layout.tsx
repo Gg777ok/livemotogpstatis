@@ -136,10 +136,10 @@ export default function RootLayout({
             <SpeedInsights />
             <div data-type="_mgwidget" data-widget-id="1967939"></div>
             <div data-type="_mgwidget" data-widget-id="1978333"></div>
-            <Script
+            {/* <Script
               src="https://welcomingexpulsion.com/8e/9d/37/8e9d37d13bce33fd36e49421cfd5bc7b.js"
               strategy="afterInteractive"
-            />
+            /> */}
             <Script id="mg-script" strategy="afterInteractive">
               {`
                 (function(w,q){w[q]=w[q]||[];w[q].push(["_mgc.load"])})(window,"_mgq");

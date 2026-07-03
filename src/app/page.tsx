@@ -1,6 +1,6 @@
 // import Link from "next/link";
 // import AdsArticle from "../../components/AdsArticle";
-// import AdsBanner from "../../components/AdsBanner";
+import AdsBanner from "../../components/AdsBanner";
 // import CardHome from "../../components/CardHome";
 // import { CarouselSize } from "../../components/Carousel";
 // import { BannerLiveMotoGP } from "../../components/BannerLivemotogp";
@@ -44,6 +44,7 @@ export default function Home() {
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-neutral-950">
       <main className="flex min-h-screen  w-full max-w-5xl flex-col items-center justify-between py-1 px-1 bg-white dark:bg-neutral-950 sm:items-start">
         <StreamingPage />
+        <AdsBanner />
         {/* <CarouselSize images={images} />
         <AdsBanner />
         <div className="w-full pt-2 px-2 space-y-3">
