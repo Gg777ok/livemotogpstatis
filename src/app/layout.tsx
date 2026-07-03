@@ -8,7 +8,7 @@ import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import AdsHeader from "../../components/AdsHeader";
-import AdsFloating from "../../components/AdsFloating";
+// import AdsFloating from "../../components/AdsFloating";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +28,7 @@ export const metadata: Metadata = {
       "LIVEMotoGP/LIVEMotoGP.COM  - LIVE MotoGP 2026 Live Streaming & Berita MotoGP 2026",
     template: "%s | LIVEMotoGP",
   },
+  
 
   description:
     "Link Live Streaming MotoGP 2026, Siaran Langsung: MotoGP, Moto2, Moto3, WSBK 2026, Race MotoGP, Warm Up MotoGP, Sprint Race MotoGP, Q2 MotoGP, Q1 MotoGP, FP MotoGP, Practice MotoGP Nonton live streaming MotoGP 2026, jadwal race terbaru, klasemen pembalap, hasil balapan, dan berita MotoGP update setiap hari. Kunjungi juga LIVEMotoGP.COM untuk pengalaman streaming tanpa gangguan.",
@@ -67,7 +68,7 @@ export const metadata: Metadata = {
       "Link Live Streaming MotoGP 2026, Siaran Langsung: MotoGP, Moto2, Moto3, WSBK 2026, Race MotoGP, Warm Up MotoGP, Sprint Race MotoGP, Q2 MotoGP, Q1 MotoGP, FP MotoGP, Practice MotoGP Nonton live streaming MotoGP 2026, jadwal race terbaru, klasemen pembalap, hasil balapan, dan berita MotoGP update setiap hari. Kunjungi juga LIVEMotoGP.COM untuk pengalaman streaming tanpa gangguan.",
     images: [
       {
-        url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtDaqI1kAcEOvyeACrUGkKphQE3OP6gupmyQY780EhdAboLHQHRAq5FsnzFLPSnI2BLC1fA9d3QjomMexZ_zoeFXTDSS8kv7rP16LdO95xlGoFqjyGMzDhdd-Sr08EjgiRAc75IXOjtZAooq6SdsQboKxJUSmr29VKMKTn8e85RCHmYZRrKuUEPnDloMk/s512/og-image.png",
+        url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMvTBRF-gxwFupHN7X_9pRbTp-z5l8pAZQ6shsKMOlbZPe_VRwkp0Qkib4Pk7q5lCO6rlc4H4cg6curkTLfcDLaf-QLGFk7AnbDDXwHrdohuFc7fpH3LwLZ7Tq1BcFuJVJfEXPQiXJyFCzMr185jUee0GXPe9jQPWtwTWlttA-cfOOUlC8jiiF0f70VWk/s512/android-chrome-512x512.png",
         width: 1200,
         height: 630,
         alt: "Live Streaming MotoGP 2026",
@@ -82,14 +83,14 @@ export const metadata: Metadata = {
     description:
       "Link Live Streaming MotoGP 2026, Siaran Langsung: MotoGP, Moto2, Moto3, WSBK 2026, Race MotoGP, Warm Up MotoGP, Sprint Race MotoGP, Q2 MotoGP, Q1 MotoGP, FP MotoGP, Practice MotoGP Nonton live streaming MotoGP 2026, jadwal race terbaru, klasemen pembalap, hasil balapan, dan berita MotoGP update setiap hari. Kunjungi juga LIVEMotoGP.COM untuk pengalaman streaming tanpa gangguan.",
     images: [
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtDaqI1kAcEOvyeACrUGkKphQE3OP6gupmyQY780EhdAboLHQHRAq5FsnzFLPSnI2BLC1fA9d3QjomMexZ_zoeFXTDSS8kv7rP16LdO95xlGoFqjyGMzDhdd-Sr08EjgiRAc75IXOjtZAooq6SdsQboKxJUSmr29VKMKTn8e85RCHmYZRrKuUEPnDloMk/s512/og-image.png",
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMvTBRF-gxwFupHN7X_9pRbTp-z5l8pAZQ6shsKMOlbZPe_VRwkp0Qkib4Pk7q5lCO6rlc4H4cg6curkTLfcDLaf-QLGFk7AnbDDXwHrdohuFc7fpH3LwLZ7Tq1BcFuJVJfEXPQiXJyFCzMr185jUee0GXPe9jQPWtwTWlttA-cfOOUlC8jiiF0f70VWk/s512/android-chrome-512x512.png",
     ],
   },
 
   icons: {
-    icon: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtDaqI1kAcEOvyeACrUGkKphQE3OP6gupmyQY780EhdAboLHQHRAq5FsnzFLPSnI2BLC1fA9d3QjomMexZ_zoeFXTDSS8kv7rP16LdO95xlGoFqjyGMzDhdd-Sr08EjgiRAc75IXOjtZAooq6SdsQboKxJUSmr29VKMKTn8e85RCHmYZRrKuUEPnDloMk/s512/og-image.png",
+    icon: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMvTBRF-gxwFupHN7X_9pRbTp-z5l8pAZQ6shsKMOlbZPe_VRwkp0Qkib4Pk7q5lCO6rlc4H4cg6curkTLfcDLaf-QLGFk7AnbDDXwHrdohuFc7fpH3LwLZ7Tq1BcFuJVJfEXPQiXJyFCzMr185jUee0GXPe9jQPWtwTWlttA-cfOOUlC8jiiF0f70VWk/s512/android-chrome-512x512.png",
     apple:
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtDaqI1kAcEOvyeACrUGkKphQE3OP6gupmyQY780EhdAboLHQHRAq5FsnzFLPSnI2BLC1fA9d3QjomMexZ_zoeFXTDSS8kv7rP16LdO95xlGoFqjyGMzDhdd-Sr08EjgiRAc75IXOjtZAooq6SdsQboKxJUSmr29VKMKTn8e85RCHmYZRrKuUEPnDloMk/s512/og-image.png",
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMvTBRF-gxwFupHN7X_9pRbTp-z5l8pAZQ6shsKMOlbZPe_VRwkp0Qkib4Pk7q5lCO6rlc4H4cg6curkTLfcDLaf-QLGFk7AnbDDXwHrdohuFc7fpH3LwLZ7Tq1BcFuJVJfEXPQiXJyFCzMr185jUee0GXPe9jQPWtwTWlttA-cfOOUlC8jiiF0f70VWk/s512/android-chrome-512x512.png",
   },
 
   viewport: {
