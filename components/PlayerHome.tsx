@@ -11,7 +11,7 @@ import ButtonSocial from "./ButtonSocial";
 const servers = [
   {
     name: "SERVER UTAMA",
-    type: "hls",
+     type: "hls",
     url: "https://s1.strea.ru/index.m3u8",
     // id: "3197f7f5086c4315af2b7a94bc9201cb",
     //   key: "17462a74739ae0d9855705ffc2c0e1b5",
@@ -89,10 +89,10 @@ export default function StreamingPage() {
     setActiveServer(index);
 
     if (!sessionStorage.getItem("adShown")) {
-      // window.open(
-      //   "https://welcomingexpulsion.com/w6fbd82af9?key=543876b74474d5085d21b077de5ae27f",
-      //   "_blank",
-      // );
+      window.open(
+        "https://welcomingexpulsion.com/w6fbd82af9?key=543876b74474d5085d21b077de5ae27f",
+        "_blank",
+      );
 
       sessionStorage.setItem("adShown", "true");
     }
