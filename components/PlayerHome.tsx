@@ -11,23 +11,28 @@ import ButtonSocial from "./ButtonSocial";
 const servers = [
   {
     name: "SERVER UTAMA",
-    url: "https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd",
-    id: "7eea72d6075245a99ee3255603d58853",
-    key: "6848ef60575579bf4d415db1032153ed",
+    type: "hls",
+    url: "https://s1.strea.ru/index.m3u8",
+    // id: "3197f7f5086c4315af2b7a94bc9201cb",
+    //   key: "17462a74739ae0d9855705ffc2c0e1b5",
+    //   url: "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd",
+    // url: "https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd",
+    // id: "7eea72d6075245a99ee3255603d58853",
+    // key: "6848ef60575579bf4d415db1032153ed",
   },
   {
     name: "SERVER IOS",
     type: "dash",
-    url: "https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd",
     id: "7eea72d6075245a99ee3255603d58853",
     key: "6848ef60575579bf4d415db1032153ed",
+    url: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
   },
   {
     name: "SERVER PALING LANCAR",
     type: "dash",
-    url: "https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd",
     id: "7eea72d6075245a99ee3255603d58853",
     key: "6848ef60575579bf4d415db1032153ed",
+    url: "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
   },
   {
     name: "SERVER 1 RU",
@@ -84,10 +89,10 @@ export default function StreamingPage() {
     setActiveServer(index);
 
     if (!sessionStorage.getItem("adShown")) {
-      window.open(
-        "https://welcomingexpulsion.com/w6fbd82af9?key=543876b74474d5085d21b077de5ae27f",
-        "_blank",
-      );
+      // window.open(
+      //   "https://welcomingexpulsion.com/w6fbd82af9?key=543876b74474d5085d21b077de5ae27f",
+      //   "_blank",
+      // );
 
       sessionStorage.setItem("adShown", "true");
     }
